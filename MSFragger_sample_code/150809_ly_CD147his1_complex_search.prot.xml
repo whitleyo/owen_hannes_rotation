@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/tmp/3d8ab51e-a464-4bb0-9077-20fa8e3b8574/150809_ly_CD147his1_complex_search.prot.xsl"?>
+<protein_summary xmlns="http://regis-web.systemsbiology.net/protXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/protXML/protXML_v8.xsd" summary_xml="/tmp/3d8ab51e-a464-4bb0-9077-20fa8e3b8574/150809_ly_CD147his1_complex_search.prot.xml">
+<protein_summary_header reference_database="/home/rostlab/owhitley/MSFragger_20170103/uniprot-reviewed_yes+taxonomy_9606_W_DECOYS_v3.fasta" residue_substitution_list="I -> L" source_files="/home/rostlab/owhitley/MSFragger_20170103/interact-151029_ly_CD147his_1pmol_complex1.pep.xml" source_files_alt="/home/rostlab/owhitley/MSFragger_20170103/interact-151029_ly_CD147his_1pmol_complex1.pep.xml" min_peptide_probability="0.20" min_peptide_weight="0.50" num_predicted_correct_prots="86.1" num_input_1_spectra="0" num_input_2_spectra="358" num_input_3_spectra="0" num_input_4_spectra="0" num_input_5_spectra="0" initial_min_peptide_prob="0.05" total_no_spectrum_ids="352.3" sample_enzyme="trypsin">
+<program_details analysis="proteinprophet" time="2017-11-16T09:44:14" version=" Insilicos_LabKey_C++ (TPP v5.0.1 Post-Typhoon dev, Build 201705221614-exported (Linux-x86_64))">
+<proteinprophet_details  occam_flag="Y" groups_flag="Y" degen_flag="Y" nsp_flag="Y" fpkm_flag="N" initial_peptide_wt_iters="2" nsp_distribution_iters="7" final_peptide_wt_iters="1">
+      <nsp_information neighboring_bin_smoothing="Y">
+         <nsp_distribution bin_no="0" nsp_lower_bound_incl="0.00" nsp_upper_bound_excl="0.10" pos_freq="0.246" neg_freq="0.626" pos_to_neg_ratio="0.39"/>
+         <nsp_distribution bin_no="1" nsp_lower_bound_incl="0.10" nsp_upper_bound_excl="0.25" pos_freq="0.095" neg_freq="0.179" pos_to_neg_ratio="0.53"/>
+         <nsp_distribution bin_no="2" nsp_lower_bound_incl="0.25" nsp_upper_bound_excl="0.50" pos_freq="0.166" neg_freq="0.048" pos_to_neg_ratio="3.48"/>
+         <nsp_distribution bin_no="3" nsp_lower_bound_incl="0.50" nsp_upper_bound_excl="1.00" pos_freq="0.154" neg_freq="0.043" pos_to_neg_ratio="3.62"/>
+         <nsp_distribution bin_no="4" nsp_lower_bound_incl="1.00" nsp_upper_bound_excl="2.00" pos_freq="0.162" neg_freq="0.049" pos_to_neg_ratio="3.32" alt_pos_to_neg_ratio="3.62"/>
+         <nsp_distribution bin_no="5" nsp_lower_bound_incl="2.00" nsp_upper_bound_excl="5.00" pos_freq="0.140" neg_freq="0.039" pos_to_neg_ratio="3.58" alt_pos_to_neg_ratio="3.62"/>
+         <nsp_distribution bin_no="6" nsp_lower_bound_incl="5.00" nsp_upper_bound_excl="15.00" pos_freq="0.032" neg_freq="0.012" pos_to_neg_ratio="2.71" alt_pos_to_neg_ratio="3.62"/>
+         <nsp_distribution bin_no="7" nsp_lower_bound_incl="15.00" nsp_upper_bound_excl="inf" pos_freq="0.005" neg_freq="0.005" pos_to_neg_ratio="1.00" alt_pos_to_neg_ratio="3.62"/>
+      </nsp_information>
+      <protein_summary_data_filter min_probability="1.00" sensitivity="0.256" false_positive_error_rate="0.000" predicted_num_correct="22" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.99" sensitivity="0.522" false_positive_error_rate="0.002" predicted_num_correct="45" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.98" sensitivity="0.613" false_positive_error_rate="0.004" predicted_num_correct="53" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.97" sensitivity="0.636" false_positive_error_rate="0.005" predicted_num_correct="55" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.96" sensitivity="0.670" false_positive_error_rate="0.006" predicted_num_correct="58" predicted_num_incorrect="0" />
+      <protein_summary_data_filter min_probability="0.95" sensitivity="0.792" false_positive_error_rate="0.012" predicted_num_correct="68" predicted_num_incorrect="1" />
+      <protein_summary_data_filter min_probability="0.90" sensitivity="0.956" false_positive_error_rate="0.021" predicted_num_correct="82" predicted_num_incorrect="2" />
+      <protein_summary_data_filter min_probability="0.80" sensitivity="0.985" false_positive_error_rate="0.025" predicted_num_correct="85" predicted_num_incorrect="2" />
+      <protein_summary_data_filter min_probability="0.70" sensitivity="0.994" false_positive_error_rate="0.028" predicted_num_correct="86" predicted_num_incorrect="2" />
+      <protein_summary_data_filter min_probability="0.60" sensitivity="0.994" false_positive_error_rate="0.028" predicted_num_correct="86" predicted_num_incorrect="2" />
+      <protein_summary_data_filter min_probability="0.50" sensitivity="0.994" false_positive_error_rate="0.028" predicted_num_correct="86" predicted_num_incorrect="2" />
+      <protein_summary_data_filter min_probability="0.40" sensitivity="1.000" false_positive_error_rate="0.033" predicted_num_correct="86" predicted_num_incorrect="3" />
+      <protein_summary_data_filter min_probability="0.30" sensitivity="1.000" false_positive_error_rate="0.033" predicted_num_correct="86" predicted_num_incorrect="3" />
+      <protein_summary_data_filter min_probability="0.20" sensitivity="1.000" false_positive_error_rate="0.033" predicted_num_correct="86" predicted_num_incorrect="3" />
+      <protein_summary_data_filter min_probability="0.10" sensitivity="1.000" false_positive_error_rate="0.033" predicted_num_correct="86" predicted_num_incorrect="3" />
+      <protein_summary_data_filter min_probability="0.00" sensitivity="1.000" false_positive_error_rate="0.033" predicted_num_correct="86" predicted_num_incorrect="3" />
+      <error_point error="0.0000" min_prob="1.0000" num_corr="22" num_incorr="0" />
+      <error_point error="0.0002" min_prob="0.9972" num_corr="31" num_incorr="0" />
+      <error_point error="0.0003" min_prob="0.9944" num_corr="32" num_incorr="0" />
+      <error_point error="0.0007" min_prob="0.9942" num_corr="34" num_incorr="0" />
+      <error_point error="0.0008" min_prob="0.9939" num_corr="35" num_incorr="0" />
+      <error_point error="0.0011" min_prob="0.9937" num_corr="37" num_incorr="0" />
+      <error_point error="0.0018" min_prob="0.9927" num_corr="42" num_incorr="0" />
+      <error_point error="0.0021" min_prob="0.9924" num_corr="44" num_incorr="0" />
+      <error_point error="0.0026" min_prob="0.9891" num_corr="47" num_incorr="0" />
+      <error_point error="0.0032" min_prob="0.9869" num_corr="50" num_incorr="0" />
+      <error_point error="0.0042" min_prob="0.9789" num_corr="54" num_incorr="0" />
+      <error_point error="0.0051" min_prob="0.9686" num_corr="56" num_incorr="0" />
+      <error_point error="0.0061" min_prob="0.9630" num_corr="58" num_incorr="0" />
+      <error_point error="0.0072" min_prob="0.9586" num_corr="60" num_incorr="0" />
+      <error_point error="0.0084" min_prob="0.9572" num_corr="61" num_incorr="1" />
+      <error_point error="0.0095" min_prob="0.9536" num_corr="63" num_incorr="1" />
+      <error_point error="0.0101" min_prob="0.9524" num_corr="64" num_incorr="1" />
+      <error_point error="0.0151" min_prob="0.9450" num_corr="73" num_incorr="1" />
+      <error_point error="0.0202" min_prob="0.9260" num_corr="81" num_incorr="2" />
+      <error_point error="0.0253" min_prob="0.8041" num_corr="85" num_incorr="2" />
+      <error_point error="0.0330" min_prob="0.4823" num_corr="86" num_incorr="3" />
+</proteinprophet_details>
+</program_details>
+</protein_summary_header>
+<dataset_derivation generation_no="0">
+</dataset_derivation>
+<protein_group group_number="1" probability="1.0000">
+      <protein protein_name="sp|P02545|LMNA_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.3" unique_stripped_peptides="AQNTWGCGNSLR+NSNLVGAAHEELQQSR+SGAQASSTPLSPTR" group_sibling_id="a" total_number_peptides="5" total_number_distinct_peptides="5" pct_spectrum_ids="1.40" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="664"/>
+         <annotation protein_description="Prelamin-A/C OS=Homo sapiens GN=LMNA PE=1 SV=1"/>
+         <peptide peptide_sequence="NSNLVGAAHEELQQSR" charge="2" initial_probability="0.9946" nsp_adjusted_probability="0.9985" fpkm_adjusted_probability="0.9985" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.95" n_sibling_peptides_bin="4" n_instances="3" exp_tot_instances="2.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1751.8550">
+         </peptide>
+         <peptide peptide_sequence="AQNTWGCGNSLR" charge="2" initial_probability="0.9776" nsp_adjusted_probability="0.9937" fpkm_adjusted_probability="0.9937" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1362.6099">
+<modification_info modified_peptide="AQNTWGCGNSLR">
+<mod_aminoacid_mass position="7" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SGAQASSTPLSPTR" charge="2" initial_probability="0.9764" nsp_adjusted_probability="0.9934" fpkm_adjusted_probability="0.9934" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1358.6790">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="2" probability="1.0000">
+      <protein protein_name="sp|P04075|ALDOA_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="14.0" unique_stripped_peptides="GILAADESTGSIAK+GVVPLAGTNGETTTQGLDGLSER+LQSIGTENTEENR+RLQSIGTENTEENR" group_sibling_id="a" total_number_peptides="9" total_number_distinct_peptides="9" pct_spectrum_ids="2.52" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="364"/>
+         <annotation protein_description="Fructose-bisphosphate aldolase A OS=Homo sapiens GN=ALDOA PE=1 SV=2"/>
+         <peptide peptide_sequence="GVVPLAGTNGETTTQGLDGLSER" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" fpkm_adjusted_probability="0.9997" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.98" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="2.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2271.1343">
+         </peptide>
+         <peptide peptide_sequence="GILAADESTGSIAK" charge="2" initial_probability="0.9974" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.98" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1331.6932">
+         </peptide>
+         <peptide peptide_sequence="LQSIGTENTEENR" charge="2" initial_probability="0.9950" nsp_adjusted_probability="0.9986" fpkm_adjusted_probability="0.9986" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="2.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1489.7008">
+         </peptide>
+         <peptide peptide_sequence="RLQSIGTENTEENR" charge="2" initial_probability="0.9908" nsp_adjusted_probability="0.9974" fpkm_adjusted_probability="0.9974" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.99" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1645.8020">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="3" probability="1.0000">
+      <protein protein_name="sp|P04083|ANXA1_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="9.2" unique_stripped_peptides="GLGTDEDTLIEILASR+SEDFGVNEDLADSDAR" group_sibling_id="a" total_number_peptides="5" total_number_distinct_peptides="5" pct_spectrum_ids="1.41" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="346"/>
+         <annotation protein_description="Annexin A1 OS=Homo sapiens GN=ANXA1 PE=1 SV=2"/>
+         <peptide peptide_sequence="SEDFGVNEDLADSDAR" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.97" n_sibling_peptides_bin="3" n_instances="4" exp_tot_instances="3.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1738.7281">
+         </peptide>
+         <peptide peptide_sequence="GLGTDEDTLIEILASR" charge="2" initial_probability="0.9697" nsp_adjusted_probability="0.9915" fpkm_adjusted_probability="0.9915" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1701.8783">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="4" probability="1.0000">
+      <protein protein_name="sp|P04264|K2C1_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="13.8" unique_stripped_peptides="GGGGGGYGSGGSSYGSGGGSYGSGGGGGGGR+GSGGGSSGGSIGGR+QISNLQQSISDAEQR+SGGGFSSGSAGIINYQR+WELLQQVDTSTR" group_sibling_id="a" total_number_peptides="30" total_number_distinct_peptides="30" pct_spectrum_ids="8.43" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="644"/>
+         <annotation protein_description="Keratin, type II cytoskeletal 1 OS=Homo sapiens GN=KRT1 PE=1 SV=6"/>
+         <peptide peptide_sequence="GGGGGGYGSGGSSYGSGGGSYGSGGGGGGGR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" fpkm_adjusted_probability="0.9997" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.98" n_sibling_peptides_bin="5" n_instances="6" exp_tot_instances="5.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2382.9446">
+         </peptide>
+         <peptide peptide_sequence="GSGGGSSGGSIGGR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" fpkm_adjusted_probability="0.9997" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.98" n_sibling_peptides_bin="5" n_instances="13" exp_tot_instances="12.91" is_contributing_evidence="Y" calc_neutral_pep_mass="1091.4956">
+         </peptide>
+         <peptide peptide_sequence="QISNLQQSISDAEQR" charge="2" initial_probability="0.9934" nsp_adjusted_probability="0.9982" fpkm_adjusted_probability="0.9982" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.98" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="2.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1715.8439">
+         </peptide>
+         <peptide peptide_sequence="WELLQQVDTSTR" charge="2" initial_probability="0.9931" nsp_adjusted_probability="0.9981" fpkm_adjusted_probability="0.9981" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.98" n_sibling_peptides_bin="5" n_instances="6" exp_tot_instances="5.85" is_contributing_evidence="Y" calc_neutral_pep_mass="1474.7415">
+         </peptide>
+         <peptide peptide_sequence="SGGGFSSGSAGIINYQR" charge="2" initial_probability="0.9920" nsp_adjusted_probability="0.9978" fpkm_adjusted_probability="0.9978" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.98" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1656.7856">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="5" probability="1.0000">
+      <protein protein_name="sp|P04350|TBB4A_HUMAN" n_indistinguishable_proteins="2" probability="1.0000" percent_coverage="4.3" unique_stripped_peptides="GHYTEGAELVDAVLDVVR+GHYTEGAELVDAVLDVVRK" group_sibling_id="a" total_number_peptides="26" total_number_distinct_peptides="26" pct_spectrum_ids="7.30" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="444"/>
+         <annotation protein_description="Tubulin beta-4A chain OS=Homo sapiens GN=TUBB4A PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|Q9BUF5|TBB6_HUMAN">
+            <annotation protein_description="Tubulin beta-6 chain OS=Homo sapiens GN=TUBB6 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="GHYTEGAELVDAVLDVVR" charge="2" initial_probability="0.9975" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="19" exp_tot_instances="18.88" is_contributing_evidence="Y" calc_neutral_pep_mass="1941.9795">
+         </peptide>
+         <peptide peptide_sequence="GHYTEGAELVDAVLDVVRK" charge="2" initial_probability="0.9972" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="7" exp_tot_instances="6.84" is_contributing_evidence="Y" calc_neutral_pep_mass="2070.0745">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="6" probability="1.0000">
+      <protein protein_name="sp|P04406|G3P_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="8.7" unique_stripped_peptides="GALQNIIPASTGAAK+VPTANVSVVDLTCR" group_sibling_id="a" total_number_peptides="7" total_number_distinct_peptides="7" pct_spectrum_ids="1.96" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="335"/>
+         <annotation protein_description="Glyceraldehyde-3-phosphate dehydrogenase OS=Homo sapiens GN=GAPDH PE=1 SV=3"/>
+         <peptide peptide_sequence="VPTANVSVVDLTCR" charge="2" initial_probability="0.9965" nsp_adjusted_probability="0.9990" fpkm_adjusted_probability="0.9990" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="4" exp_tot_instances="3.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1529.7871">
+<modification_info modified_peptide="VPTANVSVVDLTCR">
+<mod_aminoacid_mass position="13" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="GALQNIIPASTGAAK" charge="2" initial_probability="0.9792" nsp_adjusted_probability="0.9942" fpkm_adjusted_probability="0.9942" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="3" exp_tot_instances="2.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1410.7830">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="7" probability="1.0000">
+      <protein protein_name="sp|P06396|GELS_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.5" unique_stripped_peptides="DPDQTDGLGLSYLSSHIANVER+HVVPNEVVVQR+TPSAAYLWVGTGASEAEK" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.13" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="782"/>
+         <annotation protein_description="Gelsolin OS=Homo sapiens GN=GSN PE=1 SV=1"/>
+         <peptide peptide_sequence="DPDQTDGLGLSYLSSHIANVER" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" fpkm_adjusted_probability="0.9997" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2386.1399">
+         </peptide>
+         <peptide peptide_sequence="TPSAAYLWVGTGASEAEK" charge="2" initial_probability="0.9945" nsp_adjusted_probability="0.9985" fpkm_adjusted_probability="0.9985" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1836.8893">
+         </peptide>
+         <peptide peptide_sequence="HVVPNEVVVQR" charge="2" initial_probability="0.9799" nsp_adjusted_probability="0.9944" fpkm_adjusted_probability="0.9944" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.99" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1274.7095">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="8" probability="1.0000">
+      <protein protein_name="sp|P08779|K1C16_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="7.0" unique_stripped_peptides="APSTYGGGLSVSSR+IIAATIENAQPILQIDNAR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.84" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="473"/>
+         <annotation protein_description="Keratin, type I cytoskeletal 16 OS=Homo sapiens GN=KRT16 PE=1 SV=4"/>
+         <peptide peptide_sequence="IIAATIENAQPILQIDNAR" charge="2" initial_probability="0.9973" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2063.1377">
+         </peptide>
+         <peptide peptide_sequence="APSTYGGGLSVSSR" charge="2" initial_probability="0.9934" nsp_adjusted_probability="0.9982" fpkm_adjusted_probability="0.9982" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1337.6575">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="9" probability="1.0000">
+      <protein protein_name="sp|P13645|K1C10_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="7.9" unique_stripped_peptides="GSLGGGFSSGGFSGGSFSR+QSLEASLAETEGR+SLLEGEGSSGGGGR" group_sibling_id="a" total_number_peptides="8" total_number_distinct_peptides="8" pct_spectrum_ids="2.25" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="584"/>
+         <annotation protein_description="Keratin, type I cytoskeletal 10 OS=Homo sapiens GN=KRT10 PE=1 SV=6"/>
+         <peptide peptide_sequence="GSLGGGFSSGGFSGGSFSR" charge="2" initial_probability="0.9972" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.99" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1706.7646">
+         </peptide>
+         <peptide peptide_sequence="SLLEGEGSSGGGGR" charge="2" initial_probability="0.9970" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.99" n_sibling_peptides_bin="4" n_instances="4" exp_tot_instances="3.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1261.5898">
+         </peptide>
+         <peptide peptide_sequence="QSLEASLAETEGR" charge="2" initial_probability="0.9924" nsp_adjusted_probability="0.9979" fpkm_adjusted_probability="0.9979" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.99" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1389.6736">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="10" probability="1.0000">
+      <protein protein_name="sp|P13667|PDIA4_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.8" unique_stripped_peptides="FAMEPEEFDSDTLR+GESDPAYQQYQDAANNLR+IDATSASVLASR" group_sibling_id="a" total_number_peptides="7" total_number_distinct_peptides="7" pct_spectrum_ids="1.97" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="645"/>
+         <annotation protein_description="Protein disulfide-isomerase A4 OS=Homo sapiens GN=PDIA4 PE=1 SV=2"/>
+         <peptide peptide_sequence="FAMEPEEFDSDTLR" charge="2" initial_probability="0.9968" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="3" exp_tot_instances="2.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1701.7191">
+<modification_info modified_peptide="FAM[147]EPEEFDSDTLR">
+<mod_aminoacid_mass position="3" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="GESDPAYQQYQDAANNLR" charge="2" initial_probability="0.9940" nsp_adjusted_probability="0.9983" fpkm_adjusted_probability="0.9983" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="3" exp_tot_instances="2.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2038.8982">
+         </peptide>
+         <peptide peptide_sequence="IDATSASVLASR" charge="2" initial_probability="0.9874" nsp_adjusted_probability="0.9965" fpkm_adjusted_probability="0.9965" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.99" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1189.6302">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="11" probability="1.0000">
+      <protein protein_name="sp|P14314|GLU2B_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.2" unique_stripped_peptides="SEALPTDLPAPSAPDLTEPK+YEQGTGCWQGPNR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="528"/>
+         <annotation protein_description="Glucosidase 2 subunit beta OS=Homo sapiens GN=PRKCSH PE=1 SV=2"/>
+         <peptide peptide_sequence="SEALPTDLPAPSAPDLTEPK" charge="2" initial_probability="0.9821" nsp_adjusted_probability="0.9950" fpkm_adjusted_probability="0.9950" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2048.0313">
+         </peptide>
+         <peptide peptide_sequence="YEQGTGCWQGPNR" charge="2" initial_probability="0.9797" nsp_adjusted_probability="0.9943" fpkm_adjusted_probability="0.9943" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1551.6525">
+<modification_info modified_peptide="YEQGTGCWQGPNR">
+<mod_aminoacid_mass position="7" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="12" probability="1.0000">
+      <protein protein_name="sp|P22314|UBA1_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="2.6" unique_stripped_peptides="DNPGVVTCLDEAR+LAGTQPLEVLEAVQR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="1058"/>
+         <annotation protein_description="Ubiquitin-like modifier-activating enzyme 1 OS=Homo sapiens GN=UBA1 PE=1 SV=3"/>
+         <peptide peptide_sequence="LAGTQPLEVLEAVQR" charge="2" initial_probability="0.9838" nsp_adjusted_probability="0.9955" fpkm_adjusted_probability="0.9955" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1622.8989">
+         </peptide>
+         <peptide peptide_sequence="DNPGVVTCLDEAR" charge="2" initial_probability="0.9779" nsp_adjusted_probability="0.9938" fpkm_adjusted_probability="0.9938" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1444.6615">
+<modification_info modified_peptide="DNPGVVTCLDEAR">
+<mod_aminoacid_mass position="8" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="13" probability="1.0000">
+      <protein protein_name="sp|P26641|EF1G_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="3.2" unique_stripped_peptides="KLDPGSEETQTLVR+LDPGSEETQTLVR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="437"/>
+         <annotation protein_description="Elongation factor 1-gamma OS=Homo sapiens GN=EEF1G PE=1 SV=3"/>
+         <peptide peptide_sequence="KLDPGSEETQTLVR" charge="2" initial_probability="0.9801" nsp_adjusted_probability="0.9944" fpkm_adjusted_probability="0.9944" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1571.8154">
+         </peptide>
+         <peptide peptide_sequence="LDPGSEETQTLVR" charge="2" initial_probability="0.9777" nsp_adjusted_probability="0.9938" fpkm_adjusted_probability="0.9938" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1443.7205">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="14" probability="1.0000">
+      <protein protein_name="sp|P27797|CALR_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.0" unique_stripped_peptides="EQFLDGDGWTSR+HEQNIDCGGGYVK" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.13" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="417"/>
+         <annotation protein_description="Calreticulin OS=Homo sapiens GN=CALR PE=1 SV=1"/>
+         <peptide peptide_sequence="HEQNIDCGGGYVK" charge="2" initial_probability="0.9974" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="3" exp_tot_instances="2.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1475.6464">
+<modification_info modified_peptide="HEQNIDCGGGYVK">
+<mod_aminoacid_mass position="7" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="EQFLDGDGWTSR" charge="2" initial_probability="0.9880" nsp_adjusted_probability="0.9967" fpkm_adjusted_probability="0.9967" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1409.6210">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="15" probability="1.0000">
+      <protein protein_name="sp|P30101|PDIA3_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="7.9" unique_stripped_peptides="DGEEAGAYDGPR+MDATANDVPSPYEVR+SEPIPESNDGPVK" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.80" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="505"/>
+         <annotation protein_description="Protein disulfide-isomerase A3 OS=Homo sapiens GN=PDIA3 PE=1 SV=4"/>
+         <peptide peptide_sequence="MDATANDVPSPYEVR" charge="2" initial_probability="0.9441" nsp_adjusted_probability="0.9839" fpkm_adjusted_probability="0.9839" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.87" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1679.7458">
+<modification_info modified_peptide="M[147]DATANDVPSPYEVR">
+<mod_aminoacid_mass position="1" mass="147.035400"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="SEPIPESNDGPVK" charge="2" initial_probability="0.9386" nsp_adjusted_probability="0.9823" fpkm_adjusted_probability="0.9823" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.88" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1367.6566">
+         </peptide>
+         <peptide peptide_sequence="DGEEAGAYDGPR" charge="2" initial_probability="0.9337" nsp_adjusted_probability="0.9808" fpkm_adjusted_probability="0.9808" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.88" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1235.5054">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="16" probability="1.0000">
+      <protein protein_name="sp|P35527|K1C9_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="13.8" unique_stripped_peptides="EIETYHNLLEGGQEDFESSGAGK+FSSSSGYGGGSSR+GGSGGSYGGGGSGGGYGGGSGSR+QGVDADINGLR+SGGGGGGGLGSGGSIR" group_sibling_id="a" total_number_peptides="9" total_number_distinct_peptides="9" pct_spectrum_ids="2.51" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="623"/>
+         <annotation protein_description="Keratin, type I cytoskeletal 9 OS=Homo sapiens GN=KRT9 PE=1 SV=3"/>
+         <peptide peptide_sequence="EIETYHNLLEGGQEDFESSGAGK" charge="2" initial_probability="0.9971" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.95" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2509.1245">
+         </peptide>
+         <peptide peptide_sequence="GGSGGSYGGGGSGGGYGGGSGSR" charge="2" initial_probability="0.9967" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.95" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1790.7205">
+         </peptide>
+         <peptide peptide_sequence="FSSSSGYGGGSSR" charge="2" initial_probability="0.9885" nsp_adjusted_probability="0.9968" fpkm_adjusted_probability="0.9968" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.96" n_sibling_peptides_bin="5" n_instances="2" exp_tot_instances="1.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1234.5215">
+         </peptide>
+         <peptide peptide_sequence="SGGGGGGGLGSGGSIR" charge="2" initial_probability="0.9836" nsp_adjusted_probability="0.9954" fpkm_adjusted_probability="0.9954" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.96" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="2.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1231.5905">
+         </peptide>
+         <peptide peptide_sequence="QGVDADINGLR" charge="2" initial_probability="0.9783" nsp_adjusted_probability="0.9939" fpkm_adjusted_probability="0.9939" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.97" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1156.5835">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="17" probability="1.0000">
+      <protein protein_name="sp|P35613|BASI_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="8.8" unique_stripped_peptides="ILLTCSLNDSATEVTGHR+SSEHINEGETAMLVCK" group_sibling_id="a" total_number_peptides="5" total_number_distinct_peptides="5" pct_spectrum_ids="1.41" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="385"/>
+         <annotation protein_description="Basigin OS=Homo sapiens GN=BSG PE=1 SV=2"/>
+         <peptide peptide_sequence="SSEHINEGETAMLVCK" charge="2" initial_probability="0.9971" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="3" exp_tot_instances="2.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1803.8131">
+<modification_info modified_peptide="SSEHINEGETAMLVCK">
+<mod_aminoacid_mass position="15" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="ILLTCSLNDSATEVTGHR" charge="2" initial_probability="0.9963" nsp_adjusted_probability="0.9990" fpkm_adjusted_probability="0.9990" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1985.9840">
+<modification_info modified_peptide="ILLTCSLNDSATEVTGHR">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="18" probability="1.0000">
+      <protein protein_name="sp|P35908|K22E_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="8.6" unique_stripped_peptides="GGSISGGGYGSGGGK+GGSSSGGGYGSGGGGSSSVK+GSSSGGGYSSGSSSYGSGGR" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.12" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="639"/>
+         <annotation protein_description="Keratin, type II cytoskeletal 2 epidermal OS=Homo sapiens GN=KRT2 PE=1 SV=2"/>
+         <peptide peptide_sequence="GSSSGGGYSSGSSSYGSGGR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9997" fpkm_adjusted_probability="0.9997" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.96" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="2.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1739.6982">
+         </peptide>
+         <peptide peptide_sequence="GGSSSGGGYGSGGGGSSSVK" charge="2" initial_probability="0.9842" nsp_adjusted_probability="0.9956" fpkm_adjusted_probability="0.9956" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1587.6759">
+         </peptide>
+         <peptide peptide_sequence="GGSISGGGYGSGGGK" charge="2" initial_probability="0.9766" nsp_adjusted_probability="0.9934" fpkm_adjusted_probability="0.9934" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1196.5421">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="19" probability="1.0000">
+      <protein protein_name="sp|P60174|TPIS_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="16.4" unique_stripped_peptides="SNVSDAVAQSTR+VPADTEVVCAPPTAYIDFAR+VVLAYEPVWAIGTGK" group_sibling_id="a" total_number_peptides="9" total_number_distinct_peptides="9" pct_spectrum_ids="2.51" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="286"/>
+         <annotation protein_description="Triosephosphate isomerase OS=Homo sapiens GN=TPI1 PE=1 SV=3"/>
+         <peptide peptide_sequence="VPADTEVVCAPPTAYIDFAR" charge="2" initial_probability="0.9972" nsp_adjusted_probability="0.9992" fpkm_adjusted_probability="0.9992" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="3" exp_tot_instances="2.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2191.0620">
+<modification_info modified_peptide="VPADTEVVCAPPTAYIDFAR">
+<mod_aminoacid_mass position="9" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="VVLAYEPVWAIGTGK" charge="2" initial_probability="0.9837" nsp_adjusted_probability="0.9955" fpkm_adjusted_probability="0.9955" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="4" exp_tot_instances="3.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1601.8817">
+         </peptide>
+         <peptide peptide_sequence="SNVSDAVAQSTR" charge="2" initial_probability="0.9820" nsp_adjusted_probability="0.9950" fpkm_adjusted_probability="0.9950" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1233.5950">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="20" probability="1.0000">
+      <protein protein_name="sp|P67809|YBOX1_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="10.5" unique_stripped_peptides="GAEAANVTGPGGVPVQGSK+NEGSESAPEGQAQQR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="324"/>
+         <annotation protein_description="Nuclease-sensitive element-binding protein 1 OS=Homo sapiens GN=YBX1 PE=1 SV=3"/>
+         <peptide peptide_sequence="NEGSESAPEGQAQQR" charge="2" initial_probability="0.9974" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1586.6920">
+         </peptide>
+         <peptide peptide_sequence="GAEAANVTGPGGVPVQGSK" charge="2" initial_probability="0.9782" nsp_adjusted_probability="0.9939" fpkm_adjusted_probability="0.9939" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1694.8585">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="21" probability="1.0000">
+      <protein protein_name="sp|P67936|TPM4_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="6.0" unique_stripped_peptides="IQALQQQADEAEDR+KIQALQQQADEAEDR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="248"/>
+         <annotation protein_description="Tropomyosin alpha-4 chain OS=Homo sapiens GN=TPM4 PE=1 SV=3"/>
+         <peptide peptide_sequence="IQALQQQADEAEDR" charge="2" initial_probability="0.9947" nsp_adjusted_probability="0.9985" fpkm_adjusted_probability="0.9985" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1613.7644">
+         </peptide>
+         <peptide peptide_sequence="KIQALQQQADEAEDR" charge="2" initial_probability="0.9914" nsp_adjusted_probability="0.9976" fpkm_adjusted_probability="0.9976" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1741.8595">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="22" probability="1.0000">
+      <protein protein_name="sp|Q15084|PDIA6_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="5.7" unique_stripped_peptides="LAAVDATVNQVLASR+NRPEDYQGGR" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.12" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="440"/>
+         <annotation protein_description="Protein disulfide-isomerase A6 OS=Homo sapiens GN=PDIA6 PE=1 SV=1"/>
+         <peptide peptide_sequence="LAAVDATVNQVLASR" charge="2" initial_probability="0.9966" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.97" n_sibling_peptides_bin="3" n_instances="3" exp_tot_instances="2.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1526.8416">
+         </peptide>
+         <peptide peptide_sequence="NRPEDYQGGR" charge="2" initial_probability="0.9746" nsp_adjusted_probability="0.9929" fpkm_adjusted_probability="0.9929" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1190.5427">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="23" pseudo_name="1" probability="1.0000">
+      <protein protein_name="sp|P02533|K1C14_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="5.9" unique_stripped_peptides="APSTYGGGLSVSSSR+EVATNSELVQSGK" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.84" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="472"/>
+         <annotation protein_description="Keratin, type I cytoskeletal 14 OS=Homo sapiens GN=KRT14 PE=1 SV=4"/>
+         <peptide peptide_sequence="APSTYGGGLSVSSSR" charge="2" initial_probability="0.9962" nsp_adjusted_probability="0.9989" fpkm_adjusted_probability="0.9989" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1424.6895">
+         </peptide>
+         <peptide peptide_sequence="EVATNSELVQSGK" charge="2" initial_probability="0.9765" nsp_adjusted_probability="0.9934" fpkm_adjusted_probability="0.9934" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="2" exp_tot_instances="1.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1360.6833">
+            <peptide_parent_protein protein_name="sp|Q04695|K1C17_HUMAN"/>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|Q04695|K1C17_HUMAN" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="EVATNSELVQSGK" group_sibling_id="b" total_number_peptides="2" total_number_distinct_peptides="2" subsuming_protein_entry="sp|P02533|K1C14_HUMAN" confidence="0.8767">
+         <parameter name="prot_length" value="432"/>
+         <annotation protein_description="Keratin, type I cytoskeletal 17 OS=Homo sapiens GN=KRT17 PE=1 SV=2"/>
+         <peptide peptide_sequence="EVATNSELVQSGK" charge="2" initial_probability="0.9765" nsp_adjusted_probability="0.9424" fpkm_adjusted_probability="0.9424" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1360.6833">
+            <peptide_parent_protein protein_name="sp|P02533|K1C14_HUMAN"/>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="24" pseudo_name="2" probability="1.0000">
+      <protein protein_name="sp|P07355|ANXA2_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="10.0" unique_stripped_peptides="AEDGSVIDYELIDQDAR+GLGTDEDSLIEIICSR+RAEDGSVIDYELIDQDAR" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.12" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="339"/>
+         <annotation protein_description="Annexin A2 OS=Homo sapiens GN=ANXA2 PE=1 SV=2"/>
+         <peptide peptide_sequence="RAEDGSVIDYELIDQDAR" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.95" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2063.9761">
+         </peptide>
+         <peptide peptide_sequence="AEDGSVIDYELIDQDAR" charge="2" initial_probability="0.9775" nsp_adjusted_probability="0.9937" fpkm_adjusted_probability="0.9937" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1907.8749">
+         </peptide>
+         <peptide peptide_sequence="GLGTDEDSLIEIICSR" charge="2" initial_probability="0.9753" nsp_adjusted_probability="0.9931" fpkm_adjusted_probability="0.9931" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1776.8562">
+<modification_info modified_peptide="GLGTDEDSLIEIICSR">
+<mod_aminoacid_mass position="14" mass="160.030700"/>
+</modification_info>
+            <peptide_parent_protein protein_name="sp|A6NMY6|AXA2L_HUMAN"/>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|A6NMY6|AXA2L_HUMAN" n_indistinguishable_proteins="1" probability="0.0000" unique_stripped_peptides="GLGTDEDSLIEIICSR" group_sibling_id="b" total_number_peptides="1" total_number_distinct_peptides="1" subsuming_protein_entry="sp|P07355|ANXA2_HUMAN" confidence="0.9003">
+         <parameter name="prot_length" value="339"/>
+         <annotation protein_description="Putative annexin A2-like protein OS=Homo sapiens GN=ANXA2P2 PE=5 SV=2"/>
+         <peptide peptide_sequence="GLGTDEDSLIEIICSR" charge="2" initial_probability="0.9753" nsp_adjusted_probability="0.9395" fpkm_adjusted_probability="0.9395" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1776.8562">
+<modification_info modified_peptide="GLGTDEDSLIEIICSR">
+<mod_aminoacid_mass position="14" mass="160.030700"/>
+</modification_info>
+            <peptide_parent_protein protein_name="sp|P07355|ANXA2_HUMAN"/>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="25" pseudo_name="3" probability="1.0000">
+      <protein protein_name="sp|P11142|HSP7C_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="11.1" unique_stripped_peptides="IINEPTAAAIAYGLDK+SQIHDIVLVGGSTR+TTPSYVAFTDTER+TVTNAVVTVPAYFNDSQR+VEIIANDQGNR" group_sibling_id="a" total_number_peptides="11" total_number_distinct_peptides="11" pct_spectrum_ids="2.77" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="646"/>
+         <annotation protein_description="Heat shock cognate 71 kDa protein OS=Homo sapiens GN=HSPA8 PE=1 SV=1"/>
+         <peptide peptide_sequence="IINEPTAAAIAYGLDK" charge="2" initial_probability="0.9934" nsp_adjusted_probability="0.9982" fpkm_adjusted_probability="0.9982" weight="0.50" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="3.91" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1658.8879">
+            <peptide_parent_protein protein_name="sp|P11021|GRP78_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P54652|HSP72_HUMAN"/>
+         </peptide>
+         <peptide peptide_sequence="TTPSYVAFTDTER" charge="2" initial_probability="0.9912" nsp_adjusted_probability="0.9976" fpkm_adjusted_probability="0.9976" weight="0.99" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="3.92" n_sibling_peptides_bin="5" n_instances="5" exp_tot_instances="4.91" is_contributing_evidence="Y" calc_neutral_pep_mass="1486.6940">
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV9|HS71B_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P17066|HSP76_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P48741|HSP77_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P54652|HSP72_HUMAN"/>
+         </peptide>
+         <peptide peptide_sequence="SQIHDIVLVGGSTR" charge="2" initial_probability="0.9825" nsp_adjusted_probability="0.9951" fpkm_adjusted_probability="0.9951" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.92" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1480.7997">
+         </peptide>
+         <peptide peptide_sequence="TVTNAVVTVPAYFNDSQR" charge="2" initial_probability="0.9790" nsp_adjusted_probability="0.9941" fpkm_adjusted_probability="0.9941" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="3.92" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="2.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1980.9904">
+         </peptide>
+         <peptide peptide_sequence="VEIIANDQGNR" charge="2" initial_probability="0.9727" nsp_adjusted_probability="0.9923" fpkm_adjusted_probability="0.9923" weight="0.50" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="3.93" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1227.6206">
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV9|HS71B_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P11021|GRP78_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P17066|HSP76_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P48741|HSP77_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P54652|HSP72_HUMAN"/>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P11021|GRP78_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="8.6" unique_stripped_peptides="IINEPTAAAIAYGLDK+ITPSYVAFTPEGER+KSDIDEIVLVGGSTR+VEIIANDQGNR" group_sibling_id="b" total_number_peptides="6" total_number_distinct_peptides="6" pct_spectrum_ids="1.39" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="654"/>
+         <annotation protein_description="78 kDa glucose-regulated protein OS=Homo sapiens GN=HSPA5 PE=1 SV=2"/>
+         <peptide peptide_sequence="IINEPTAAAIAYGLDK" charge="2" initial_probability="0.9934" nsp_adjusted_probability="0.9982" fpkm_adjusted_probability="0.9982" weight="0.50" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="2.95" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1658.8879">
+            <peptide_parent_protein protein_name="sp|P11142|HSP7C_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P54652|HSP72_HUMAN"/>
+         </peptide>
+         <peptide peptide_sequence="KSDIDEIVLVGGSTR" charge="2" initial_probability="0.9920" nsp_adjusted_probability="0.9978" fpkm_adjusted_probability="0.9978" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.94" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1587.8467">
+         </peptide>
+         <peptide peptide_sequence="ITPSYVAFTPEGER" charge="2" initial_probability="0.9859" nsp_adjusted_probability="0.9961" fpkm_adjusted_probability="0.9961" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="2.95" n_sibling_peptides_bin="5" n_instances="3" exp_tot_instances="2.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1565.7726">
+         </peptide>
+         <peptide peptide_sequence="VEIIANDQGNR" charge="2" initial_probability="0.9727" nsp_adjusted_probability="0.9923" fpkm_adjusted_probability="0.9923" weight="0.50" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="2.97" n_sibling_peptides_bin="5" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1227.6206">
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV8|HS71A_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0DMV9|HS71B_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P11142|HSP7C_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P17066|HSP76_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P34931|HS71L_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P48741|HSP77_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P54652|HSP72_HUMAN"/>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P34931|HS71L_HUMAN" n_indistinguishable_proteins="2" probability="0.0000" unique_stripped_peptides="IINEPTAAAIAYGLDK+TTPSYVAFTDTER+VEIIANDQGNR" group_sibling_id="c" total_number_peptides="7" total_number_distinct_peptides="7" subsuming_protein_entry="sp|P11142|HSP7C_HUMAN" confidence="1.0000">
+         <parameter name="prot_length" value="641"/>
+         <annotation protein_description="Heat shock 70 kDa protein 1-like OS=Homo sapiens GN=HSPA1L PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|P54652|HSP72_HUMAN">
+            <annotation protein_description="Heat shock-related 70 kDa protein 2 OS=Homo sapiens GN=HSPA2 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="IINEPTAAAIAYGLDK" charge="2" initial_probability="0.9934" nsp_adjusted_probability="0.9982" fpkm_adjusted_probability="0.9982" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.95" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1658.8879">
+         </peptide>
+         <peptide peptide_sequence="TTPSYVAFTDTER" charge="2" initial_probability="0.9912" nsp_adjusted_probability="0.9976" fpkm_adjusted_probability="0.9976" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.96" n_sibling_peptides_bin="4" n_instances="5" exp_tot_instances="4.91" is_contributing_evidence="Y" calc_neutral_pep_mass="1486.6940">
+         </peptide>
+         <peptide peptide_sequence="VEIIANDQGNR" charge="2" initial_probability="0.9727" nsp_adjusted_probability="0.9923" fpkm_adjusted_probability="0.9923" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1227.6206">
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P0DMV8|HS71A_HUMAN" n_indistinguishable_proteins="4" probability="0.0000" unique_stripped_peptides="TTPSYVAFTDTER+VEIIANDQGNR" group_sibling_id="d" total_number_peptides="6" total_number_distinct_peptides="6" subsuming_protein_entry="sp|P11142|HSP7C_HUMAN" confidence="1.0000">
+         <parameter name="prot_length" value="641"/>
+         <annotation protein_description="Heat shock 70 kDa protein 1A OS=Homo sapiens GN=HSPA1A PE=1 SV=1"/>
+         <indistinguishable_protein protein_name="sp|P0DMV9|HS71B_HUMAN">
+            <annotation protein_description="Heat shock 70 kDa protein 1B OS=Homo sapiens GN=HSPA1B PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P17066|HSP76_HUMAN">
+            <annotation protein_description="Heat shock 70 kDa protein 6 OS=Homo sapiens GN=HSPA6 PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P48741|HSP77_HUMAN">
+            <annotation protein_description="Putative heat shock 70 kDa protein 7 OS=Homo sapiens GN=HSPA7 PE=5 SV=2"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="TTPSYVAFTDTER" charge="2" initial_probability="0.9912" nsp_adjusted_probability="0.9976" fpkm_adjusted_probability="0.9976" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.97" n_sibling_peptides_bin="3" n_instances="5" exp_tot_instances="4.91" is_contributing_evidence="Y" calc_neutral_pep_mass="1486.6940">
+         </peptide>
+         <peptide peptide_sequence="VEIIANDQGNR" charge="2" initial_probability="0.9727" nsp_adjusted_probability="0.9923" fpkm_adjusted_probability="0.9923" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1227.6206">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="26" pseudo_name="4" probability="1.0000">
+      <protein protein_name="sp|P13796|PLSL_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="4.5" unique_stripped_peptides="KLENCNYAVELGK+VNDDIIVNWVNETLR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.83" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="627"/>
+         <annotation protein_description="Plastin-2 OS=Homo sapiens GN=LCP1 PE=1 SV=6"/>
+         <peptide peptide_sequence="VNDDIIVNWVNETLR" charge="2" initial_probability="0.9790" nsp_adjusted_probability="0.9941" fpkm_adjusted_probability="0.9941" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.97" n_sibling_peptides_bin="3" n_instances="2" exp_tot_instances="1.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1798.9213">
+         </peptide>
+         <peptide peptide_sequence="KLENCNYAVELGK" charge="2" initial_probability="0.9721" nsp_adjusted_probability="0.9922" fpkm_adjusted_probability="0.9922" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1536.7606">
+<modification_info modified_peptide="KLENCNYAVELGK">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+            <peptide_parent_protein protein_name="sp|P13797|PLST_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P13797|PLST_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q14651|PLSI_HUMAN"/>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P13797|PLST_HUMAN" n_indistinguishable_proteins="2" probability="0.0000" unique_stripped_peptides="KLENCNYAVELGK" group_sibling_id="b" total_number_peptides="1" total_number_distinct_peptides="1" subsuming_protein_entry="sp|P13796|PLSL_HUMAN" confidence="0.8208">
+         <parameter name="prot_length" value="630"/>
+         <annotation protein_description="Plastin-3 OS=Homo sapiens GN=PLS3 PE=1 SV=4"/>
+         <indistinguishable_protein protein_name="sp|Q14651|PLSI_HUMAN">
+            <annotation protein_description="Plastin-1 OS=Homo sapiens GN=PLS1 PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="KLENCNYAVELGK" charge="2" initial_probability="0.9721" nsp_adjusted_probability="0.9320" fpkm_adjusted_probability="0.9320" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1536.7606">
+<modification_info modified_peptide="KLENCNYAVELGK">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="27" pseudo_name="5" probability="1.0000">
+      <protein protein_name="sp|P63261|ACTG_HUMAN" n_indistinguishable_proteins="1" probability="1.0000" percent_coverage="12.3" unique_stripped_peptides="EEEIAALVIDNGSGMCK+QEYDESGPSIVHR+SYELPDGQVITIGNER" group_sibling_id="a" total_number_peptides="15" total_number_distinct_peptides="15" pct_spectrum_ids="4.16" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="375"/>
+         <annotation protein_description="Actin, cytoplasmic 2 OS=Homo sapiens GN=ACTG1 PE=1 SV=1"/>
+         <peptide peptide_sequence="SYELPDGQVITIGNER" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="0.99" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="7" exp_tot_instances="6.86" is_contributing_evidence="Y" calc_neutral_pep_mass="1789.8846">
+            <peptide_parent_protein protein_name="sp|A5A3E0|POTEF_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|A5A3E0|POTEF_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P60709|ACTB_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P62736|ACTA_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P62736|ACTA_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P63267|ACTH_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P68032|ACTC_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P68133|ACTS_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q562R1|ACTBL_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q6S8J3|POTEE_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q9BYX7|ACTBM_HUMAN"/>
+         </peptide>
+         <peptide peptide_sequence="QEYDESGPSIVHR" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="0.99" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="1.98" n_sibling_peptides_bin="4" n_instances="6" exp_tot_instances="5.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1515.6953">
+            <peptide_parent_protein protein_name="sp|A5A3E0|POTEF_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|A5A3E0|POTEF_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0CG38|POTEI_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0CG38|POTEI_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P0CG39|POTEJ_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|P60709|ACTB_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q6S8J3|POTEE_HUMAN"/>
+            <peptide_parent_protein protein_name="sp|Q9BYX7|ACTBM_HUMAN"/>
+         </peptide>
+         <peptide peptide_sequence="EEEIAALVIDNGSGMCK" charge="2" initial_probability="0.9933" nsp_adjusted_probability="0.9981" fpkm_adjusted_probability="0.9981" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.97" n_sibling_peptides_bin="4" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1876.8546">
+<modification_info modified_peptide="E[171]EEIAALVIDNGSGMCK">
+<mod_aminoacid_mass position="1" mass="171.053200"/>
+<mod_aminoacid_mass position="16" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+      <protein protein_name="sp|A5A3E0|POTEF_HUMAN" n_indistinguishable_proteins="4" probability="0.0000" unique_stripped_peptides="QEYDESGPSIVHR+SYELPDGQVITIGNER" group_sibling_id="b" total_number_peptides="13" total_number_distinct_peptides="13" subsuming_protein_entry="sp|P63261|ACTG_HUMAN" confidence="1.0000">
+         <parameter name="prot_length" value="1075"/>
+         <annotation protein_description="POTE ankyrin domain family member F OS=Homo sapiens GN=POTEF PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|P60709|ACTB_HUMAN">
+            <annotation protein_description="Actin, cytoplasmic 1 OS=Homo sapiens GN=ACTB PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q6S8J3|POTEE_HUMAN">
+            <annotation protein_description="POTE ankyrin domain family member E OS=Homo sapiens GN=POTEE PE=2 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q9BYX7|ACTBM_HUMAN">
+            <annotation protein_description="Putative beta-actin-like protein 3 OS=Homo sapiens GN=POTEKP PE=5 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="SYELPDGQVITIGNER" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9993" fpkm_adjusted_probability="0.9993" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="7" exp_tot_instances="6.86" is_contributing_evidence="Y" calc_neutral_pep_mass="1789.8846">
+         </peptide>
+         <peptide peptide_sequence="QEYDESGPSIVHR" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9991" fpkm_adjusted_probability="0.9991" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.99" n_sibling_peptides_bin="3" n_instances="6" exp_tot_instances="5.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1515.6953">
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P62736|ACTA_HUMAN" n_indistinguishable_proteins="5" probability="0.0000" unique_stripped_peptides="SYELPDGQVITIGNER" group_sibling_id="c" total_number_peptides="7" total_number_distinct_peptides="7" subsuming_protein_entry="sp|P63261|ACTG_HUMAN" confidence="0.9125">
+         <parameter name="prot_length" value="377"/>
+         <annotation protein_description="Actin, aortic smooth muscle OS=Homo sapiens GN=ACTA2 PE=1 SV=1"/>
+         <indistinguishable_protein protein_name="sp|P63267|ACTH_HUMAN">
+            <annotation protein_description="Actin, gamma-enteric smooth muscle OS=Homo sapiens GN=ACTG2 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P68032|ACTC_HUMAN">
+            <annotation protein_description="Actin, alpha cardiac muscle 1 OS=Homo sapiens GN=ACTC1 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P68133|ACTS_HUMAN">
+            <annotation protein_description="Actin, alpha skeletal muscle OS=Homo sapiens GN=ACTA1 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q562R1|ACTBL_HUMAN">
+            <annotation protein_description="Beta-actin-like protein 2 OS=Homo sapiens GN=ACTBL2 PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="SYELPDGQVITIGNER" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9939" fpkm_adjusted_probability="0.9939" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="7" exp_tot_instances="6.86" is_contributing_evidence="Y" calc_neutral_pep_mass="1789.8846">
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P0CG38|POTEI_HUMAN" n_indistinguishable_proteins="2" probability="0.0000" unique_stripped_peptides="QEYDESGPSIVHR" group_sibling_id="d" total_number_peptides="6" total_number_distinct_peptides="6" subsuming_protein_entry="sp|P63261|ACTG_HUMAN" confidence="0.7779">
+         <parameter name="prot_length" value="1075"/>
+         <annotation protein_description="POTE ankyrin domain family member I OS=Homo sapiens GN=POTEI PE=3 SV=1"/>
+         <indistinguishable_protein protein_name="sp|P0CG39|POTEJ_HUMAN">
+            <annotation protein_description="POTE ankyrin domain family member J OS=Homo sapiens GN=POTEJ PE=3 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="QEYDESGPSIVHR" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9922" fpkm_adjusted_probability="0.9922" weight="0.00" group_weight="0.99" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="6" exp_tot_instances="5.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1515.6953">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="28" pseudo_name="6" probability="1.0000">
+      <protein protein_name="sp|Q13748|TBA3C_HUMAN" n_indistinguishable_proteins="2" probability="1.0000" percent_coverage="8.0" unique_stripped_peptides="AVFVDLEPTVVDEVR+FDGALNVDLTEFQTNLVPYPR" group_sibling_id="a" total_number_peptides="53" total_number_distinct_peptides="53" pct_spectrum_ids="14.83" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="450"/>
+         <annotation protein_description="Tubulin alpha-3C/D chain OS=Homo sapiens GN=TUBA3C PE=1 SV=3"/>
+         <indistinguishable_protein protein_name="sp|Q6PEY2|TBA3E_HUMAN">
+            <annotation protein_description="Tubulin alpha-3E chain OS=Homo sapiens GN=TUBA3E PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="FDGALNVDLTEFQTNLVPYPR" charge="2" initial_probability="0.9977" nsp_adjusted_probability="0.9994" fpkm_adjusted_probability="0.9994" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.98" n_sibling_peptides_bin="3" n_instances="50" exp_tot_instances="49.49" is_contributing_evidence="Y" calc_neutral_pep_mass="2408.2009">
+         </peptide>
+         <peptide peptide_sequence="AVFVDLEPTVVDEVR" charge="2" initial_probability="0.9772" nsp_adjusted_probability="0.9936" fpkm_adjusted_probability="0.9936" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="1.00" n_sibling_peptides_bin="3" n_instances="3" exp_tot_instances="2.77" is_contributing_evidence="Y" calc_neutral_pep_mass="1686.8826">
+         </peptide>
+      </protein>
+      <protein protein_name="sp|P68363|TBA1B_HUMAN" n_indistinguishable_proteins="5" probability="0.0000" unique_stripped_peptides="FDGALNVDLTEFQTNLVPYPR" group_sibling_id="b" total_number_peptides="50" total_number_distinct_peptides="50" subsuming_protein_entry="sp|Q13748|TBA3C_HUMAN" confidence="0.8965">
+         <parameter name="prot_length" value="451"/>
+         <annotation protein_description="Tubulin alpha-1B chain OS=Homo sapiens GN=TUBA1B PE=1 SV=1"/>
+         <indistinguishable_protein protein_name="sp|P68366|TBA4A_HUMAN">
+            <annotation protein_description="Tubulin alpha-4A chain OS=Homo sapiens GN=TUBA4A PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q71U36|TBA1A_HUMAN">
+            <annotation protein_description="Tubulin alpha-1A chain OS=Homo sapiens GN=TUBA1A PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q9BQE3|TBA1C_HUMAN">
+            <annotation protein_description="Tubulin alpha-1C chain OS=Homo sapiens GN=TUBA1C PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q9NY65|TBA8_HUMAN">
+            <annotation protein_description="Tubulin alpha-8 chain OS=Homo sapiens GN=TUBA8 PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="FDGALNVDLTEFQTNLVPYPR" charge="2" initial_probability="0.9977" nsp_adjusted_probability="0.9942" fpkm_adjusted_probability="0.9942" weight="0.00" group_weight="1.00" is_nondegenerate_evidence="N" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="50" exp_tot_instances="49.49" is_contributing_evidence="Y" calc_neutral_pep_mass="2408.2009">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="29" probability="0.9999">
+      <protein protein_name="sp|P40926|MDHM_HUMAN" n_indistinguishable_proteins="1" probability="0.9999" percent_coverage="7.4" unique_stripped_peptides="GCDVVVIPAGVPR+TIIPLISQCTPK" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.55" pct_intensity="-nan" raw_intensity="0.00" confidence="1.00">
+         <parameter name="prot_length" value="338"/>
+         <annotation protein_description="Malate dehydrogenase, mitochondrial OS=Homo sapiens GN=MDH2 PE=1 SV=3"/>
+         <peptide peptide_sequence="GCDVVVIPAGVPR" charge="2" initial_probability="0.9736" nsp_adjusted_probability="0.9926" fpkm_adjusted_probability="0.9926" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.96" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1337.7124">
+<modification_info modified_peptide="GCDVVVIPAGVPR">
+<mod_aminoacid_mass position="2" mass="160.030700"/>
+</modification_info>
+         </peptide>
+         <peptide peptide_sequence="TIIPLISQCTPK" charge="2" initial_probability="0.9648" nsp_adjusted_probability="0.9900" fpkm_adjusted_probability="0.9900" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.97" n_sibling_peptides_bin="3" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1369.7639">
+<modification_info modified_peptide="TIIPLISQCTPK">
+<mod_aminoacid_mass position="9" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="30" probability="0.9975">
+      <protein protein_name="sp|P10809|CH60_HUMAN" n_indistinguishable_proteins="1" probability="0.9975" percent_coverage="4.4" unique_stripped_peptides="LVQDVANNTNEEAGDGTTTATVLAR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.57" pct_intensity="-nan" raw_intensity="0.00" confidence="0.87">
+         <parameter name="prot_length" value="573"/>
+         <annotation protein_description="60 kDa heat shock protein, mitochondrial OS=Homo sapiens GN=HSPD1 PE=1 SV=2"/>
+         <peptide peptide_sequence="LVQDVANNTNEEAGDGTTTATVLAR" charge="2" initial_probability="0.9990" nsp_adjusted_probability="0.9975" fpkm_adjusted_probability="0.9975" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="2.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2559.2412">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="31" probability="0.9972">
+      <protein protein_name="sp|O15173|PGRC2_HUMAN" n_indistinguishable_proteins="1" probability="0.9972" percent_coverage="8.5" unique_stripped_peptides="GLGAGAGAGEESPATSLPR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.85" pct_intensity="-nan" raw_intensity="0.00" confidence="0.95">
+         <parameter name="prot_length" value="223"/>
+         <annotation protein_description="Membrane-associated progesterone receptor component 2 OS=Homo sapiens GN=PGRMC2 PE=1 SV=1"/>
+         <peptide peptide_sequence="GLGAGAGAGEESPATSLPR" charge="2" initial_probability="0.9989" nsp_adjusted_probability="0.9972" fpkm_adjusted_probability="0.9972" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1696.8380">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="32" probability="0.9944">
+      <protein protein_name="sp|P29401|TKT_HUMAN" n_indistinguishable_proteins="1" probability="0.9944" percent_coverage="3.0" unique_stripped_peptides="ILATPPQEDAPSVDIANIR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.57" pct_intensity="-nan" raw_intensity="0.00" confidence="0.86">
+         <parameter name="prot_length" value="623"/>
+         <annotation protein_description="Transketolase OS=Homo sapiens GN=TKT PE=1 SV=3"/>
+         <peptide peptide_sequence="ILATPPQEDAPSVDIANIR" charge="2" initial_probability="0.9978" nsp_adjusted_probability="0.9944" fpkm_adjusted_probability="0.9944" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2019.0636">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="33" probability="0.9942">
+      <protein protein_name="sp|P06733|ENOA_HUMAN" n_indistinguishable_proteins="3" probability="0.9942" percent_coverage="4.1" unique_stripped_peptides="AAVPSGASTGIYEALELR" group_sibling_id="a" total_number_peptides="14" total_number_distinct_peptides="14" pct_spectrum_ids="3.95" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="434"/>
+         <annotation protein_description="Alpha-enolase OS=Homo sapiens GN=ENO1 PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|P09104|ENOG_HUMAN">
+            <annotation protein_description="Gamma-enolase OS=Homo sapiens GN=ENO2 PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P13929|ENOB_HUMAN">
+            <annotation protein_description="Beta-enolase OS=Homo sapiens GN=ENO3 PE=1 SV=5"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="AAVPSGASTGIYEALELR" charge="2" initial_probability="0.9977" nsp_adjusted_probability="0.9942" fpkm_adjusted_probability="0.9942" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="14" exp_tot_instances="13.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1803.9366">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="34" probability="0.9942">
+      <protein protein_name="sp|Q9Y333|LSM2_HUMAN" n_indistinguishable_proteins="1" probability="0.9942" percent_coverage="20.0" unique_stripped_peptides="YVQLPADEVDTQLLQDAAR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.98">
+         <parameter name="prot_length" value="95"/>
+         <annotation protein_description="U6 snRNA-associated Sm-like protein LSm2 OS=Homo sapiens GN=LSM2 PE=1 SV=1"/>
+         <peptide peptide_sequence="YVQLPADEVDTQLLQDAAR" charge="2" initial_probability="0.9977" nsp_adjusted_probability="0.9942" fpkm_adjusted_probability="0.9942" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2144.0750">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="35" probability="0.9939">
+      <protein protein_name="sp|P50995|ANX11_HUMAN" n_indistinguishable_proteins="1" probability="0.9939" percent_coverage="3.2" unique_stripped_peptides="GVGTDEACLIEILASR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.88">
+         <parameter name="prot_length" value="505"/>
+         <annotation protein_description="Annexin A11 OS=Homo sapiens GN=ANXA11 PE=1 SV=1"/>
+         <peptide peptide_sequence="GVGTDEACLIEILASR" charge="2" initial_probability="0.9976" nsp_adjusted_probability="0.9939" fpkm_adjusted_probability="0.9939" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1702.8558">
+<modification_info modified_peptide="GVGTDEACLIEILASR">
+<mod_aminoacid_mass position="8" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="36" probability="0.9937">
+      <protein protein_name="sp|P30086|PEBP1_HUMAN" n_indistinguishable_proteins="1" probability="0.9937" percent_coverage="10.7" unique_stripped_peptides="GNDISSGTVLSDYVGSGPPK" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.85" pct_intensity="-nan" raw_intensity="0.00" confidence="0.96">
+         <parameter name="prot_length" value="187"/>
+         <annotation protein_description="Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens GN=PEBP1 PE=1 SV=3"/>
+         <peptide peptide_sequence="GNDISSGTVLSDYVGSGPPK" charge="2" initial_probability="0.9975" nsp_adjusted_probability="0.9937" fpkm_adjusted_probability="0.9937" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1948.9377">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="37" probability="0.9937">
+      <protein protein_name="sp|P36222|CH3L1_HUMAN" n_indistinguishable_proteins="1" probability="0.9937" percent_coverage="6.0" unique_stripped_peptides="SFTLASSETGVGAPISGPGIPGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="383"/>
+         <annotation protein_description="Chitinase-3-like protein 1 OS=Homo sapiens GN=CHI3L1 PE=1 SV=2"/>
+         <peptide peptide_sequence="SFTLASSETGVGAPISGPGIPGR" charge="2" initial_probability="0.9975" nsp_adjusted_probability="0.9937" fpkm_adjusted_probability="0.9937" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="2157.1067">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="38" probability="0.9934">
+      <protein protein_name="sp|P08865|RSSA_HUMAN" n_indistinguishable_proteins="1" probability="0.9934" percent_coverage="5.8" unique_stripped_peptides="AIVAIENPADVSVISSR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.93">
+         <parameter name="prot_length" value="295"/>
+         <annotation protein_description="40S ribosomal protein SA OS=Homo sapiens GN=RPSA PE=1 SV=4"/>
+         <peptide peptide_sequence="AIVAIENPADVSVISSR" charge="2" initial_probability="0.9974" nsp_adjusted_probability="0.9934" fpkm_adjusted_probability="0.9934" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1739.9414">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="39" probability="0.9929">
+      <protein protein_name="sp|P09382|LEG1_HUMAN" n_indistinguishable_proteins="1" probability="0.9929" percent_coverage="13.3" unique_stripped_peptides="ACGLVASNLNLKPGECLR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.84" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="135"/>
+         <annotation protein_description="Galectin-1 OS=Homo sapiens GN=LGALS1 PE=1 SV=2"/>
+         <peptide peptide_sequence="ACGLVASNLNLKPGECLR" charge="2" initial_probability="0.9972" nsp_adjusted_probability="0.9929" fpkm_adjusted_probability="0.9929" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.96" is_contributing_evidence="Y" calc_neutral_pep_mass="2013.0134">
+<modification_info modified_peptide="A[113]CGLVASNLNLKPGECLR">
+<mod_aminoacid_mass position="1" mass="113.047700"/>
+<mod_aminoacid_mass position="2" mass="160.030700"/>
+<mod_aminoacid_mass position="16" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="40" probability="0.9927">
+      <protein protein_name="sp|P27824|CALX_HUMAN" n_indistinguishable_proteins="1" probability="0.9927" percent_coverage="2.7" unique_stripped_peptides="APVPTGEVYFADSFDR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.86">
+         <parameter name="prot_length" value="592"/>
+         <annotation protein_description="Calnexin OS=Homo sapiens GN=CANX PE=1 SV=2"/>
+         <peptide peptide_sequence="APVPTGEVYFADSFDR" charge="2" initial_probability="0.9971" nsp_adjusted_probability="0.9927" fpkm_adjusted_probability="0.9927" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1769.8259">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="41" probability="0.9927">
+      <protein protein_name="sp|P36957|ODO2_HUMAN" n_indistinguishable_proteins="1" probability="0.9927" percent_coverage="3.1" unique_stripped_peptides="TPAFAESVTEGDVR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.89">
+         <parameter name="prot_length" value="453"/>
+         <annotation protein_description="Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial OS=Homo sapiens GN=DLST PE=1 SV=4"/>
+         <peptide peptide_sequence="TPAFAESVTEGDVR" charge="2" initial_probability="0.9971" nsp_adjusted_probability="0.9927" fpkm_adjusted_probability="0.9927" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="1.00" is_contributing_evidence="Y" calc_neutral_pep_mass="1477.7047">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="42" probability="0.9927">
+      <protein protein_name="sp|P50897|PPT1_HUMAN" n_indistinguishable_proteins="1" probability="0.9927" percent_coverage="4.9" unique_stripped_peptides="ETIPLQETSLYTQDR" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.13" pct_intensity="-nan" raw_intensity="0.00" confidence="0.93">
+         <parameter name="prot_length" value="306"/>
+         <annotation protein_description="Palmitoyl-protein thioesterase 1 OS=Homo sapiens GN=PPT1 PE=1 SV=1"/>
+         <peptide peptide_sequence="ETIPLQETSLYTQDR" charge="2" initial_probability="0.9971" nsp_adjusted_probability="0.9927" fpkm_adjusted_probability="0.9927" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="4" exp_tot_instances="3.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1792.8844">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="43" probability="0.9924">
+      <protein protein_name="sp|O43399|TPD54_HUMAN" n_indistinguishable_proteins="1" probability="0.9924" percent_coverage="7.8" unique_stripped_peptides="TPAVEGLTEAEEEELR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.57" pct_intensity="-nan" raw_intensity="0.00" confidence="0.95">
+         <parameter name="prot_length" value="206"/>
+         <annotation protein_description="Tumor protein D54 OS=Homo sapiens GN=TPD52L2 PE=1 SV=2"/>
+         <peptide peptide_sequence="TPAVEGLTEAEEEELR" charge="2" initial_probability="0.9970" nsp_adjusted_probability="0.9924" fpkm_adjusted_probability="0.9924" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1771.8475">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="44" probability="0.9924">
+      <protein protein_name="sp|P52566|GDIR2_HUMAN" n_indistinguishable_proteins="1" probability="0.9924" percent_coverage="8.5" unique_stripped_peptides="APEPHVEEDDDDELDSK" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.76" pct_intensity="-nan" raw_intensity="0.00" confidence="0.95">
+         <parameter name="prot_length" value="201"/>
+         <annotation protein_description="Rho GDP-dissociation inhibitor 2 OS=Homo sapiens GN=ARHGDIB PE=1 SV=3"/>
+         <peptide peptide_sequence="APEPHVEEDDDDELDSK" charge="2" initial_probability="0.9970" nsp_adjusted_probability="0.9924" fpkm_adjusted_probability="0.9924" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.68" is_contributing_evidence="Y" calc_neutral_pep_mass="1938.7968">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="45" probability="0.9922">
+      <protein protein_name="DECOY_sp|P35527|K1C9_HUMAN" n_indistinguishable_proteins="1" probability="0.9922" unique_stripped_peptides="SGSGGGYGGGSGGGGYSGGSGGR" group_sibling_id="a" total_number_peptides="4" total_number_distinct_peptides="4" pct_spectrum_ids="1.13" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="0"/>
+         <annotation protein_description="DECOY_sp P35527 K1C9_HUMAN"/>
+         <peptide peptide_sequence="SGSGGGYGGGSGGGGYSGGSGGR" charge="2" initial_probability="0.9969" nsp_adjusted_probability="0.9922" fpkm_adjusted_probability="0.9922" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="4" exp_tot_instances="3.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1790.7205">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="46" probability="0.9896">
+      <protein protein_name="sp|P39687|AN32A_HUMAN" n_indistinguishable_proteins="2" probability="0.9896" percent_coverage="6.4" unique_stripped_peptides="SLDLFNCEVTNLNDYR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.94">
+         <parameter name="prot_length" value="249"/>
+         <annotation protein_description="Acidic leucine-rich nuclear phosphoprotein 32 family member A OS=Homo sapiens GN=ANP32A PE=1 SV=1"/>
+         <indistinguishable_protein protein_name="sp|Q92688|AN32B_HUMAN">
+            <annotation protein_description="Acidic leucine-rich nuclear phosphoprotein 32 family member B OS=Homo sapiens GN=ANP32B PE=1 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="SLDLFNCEVTNLNDYR" charge="2" initial_probability="0.9959" nsp_adjusted_probability="0.9896" fpkm_adjusted_probability="0.9896" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1971.8998">
+<modification_info modified_peptide="SLDLFNCEVTNLNDYR">
+<mod_aminoacid_mass position="7" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="47" probability="0.9891">
+      <protein protein_name="sp|P07237|PDIA1_HUMAN" n_indistinguishable_proteins="1" probability="0.9891" percent_coverage="3.1" unique_stripped_peptides="VDATEESDLAQQYGVR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.84" pct_intensity="-nan" raw_intensity="0.00" confidence="0.88">
+         <parameter name="prot_length" value="508"/>
+         <annotation protein_description="Protein disulfide-isomerase OS=Homo sapiens GN=P4HB PE=1 SV=3"/>
+         <peptide peptide_sequence="VDATEESDLAQQYGVR" charge="2" initial_probability="0.9957" nsp_adjusted_probability="0.9891" fpkm_adjusted_probability="0.9891" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1779.8274">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="48" probability="0.9884">
+      <protein protein_name="sp|P02768|ALBU_HUMAN" n_indistinguishable_proteins="1" probability="0.9884" percent_coverage="2.5" unique_stripped_peptides="KVPQVSTPTLVEVSR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.86">
+         <parameter name="prot_length" value="609"/>
+         <annotation protein_description="Serum albumin OS=Homo sapiens GN=ALB PE=1 SV=2"/>
+         <peptide peptide_sequence="KVPQVSTPTLVEVSR" charge="2" initial_probability="0.9954" nsp_adjusted_probability="0.9884" fpkm_adjusted_probability="0.9884" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1638.9302">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="49" probability="0.9876">
+      <protein protein_name="sp|Q14697|GANAB_HUMAN" n_indistinguishable_proteins="1" probability="0.9876" percent_coverage="1.6" unique_stripped_peptides="DPAEGDGAQPEETPR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.79">
+         <parameter name="prot_length" value="944"/>
+         <annotation protein_description="Neutral alpha-glucosidase AB OS=Homo sapiens GN=GANAB PE=1 SV=3"/>
+         <peptide peptide_sequence="DPAEGDGAQPEETPR" charge="2" initial_probability="0.9951" nsp_adjusted_probability="0.9876" fpkm_adjusted_probability="0.9876" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1567.6749">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="50" probability="0.9869">
+      <protein protein_name="sp|P07858|CATB_HUMAN" n_indistinguishable_proteins="1" probability="0.9869" percent_coverage="5.0" unique_stripped_peptides="GQDHCGIESEVVAGIPR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.92">
+         <parameter name="prot_length" value="339"/>
+         <annotation protein_description="Cathepsin B OS=Homo sapiens GN=CTSB PE=1 SV=3"/>
+         <peptide peptide_sequence="GQDHCGIESEVVAGIPR" charge="2" initial_probability="0.9948" nsp_adjusted_probability="0.9869" fpkm_adjusted_probability="0.9869" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1822.8630">
+<modification_info modified_peptide="GQDHCGIESEVVAGIPR">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="51" probability="0.9859">
+      <protein protein_name="sp|P0DME0|SETLP_HUMAN" n_indistinguishable_proteins="2" probability="0.9859" percent_coverage="6.2" unique_stripped_peptides="EQQEAIEHIDEVQNEIDR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.93">
+         <parameter name="prot_length" value="302"/>
+         <annotation protein_description="Protein SETSIP OS=Homo sapiens GN=SETSIP PE=1 SV=1"/>
+         <indistinguishable_protein protein_name="sp|Q01105|SET_HUMAN">
+            <annotation protein_description="Protein SET OS=Homo sapiens GN=SET PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="EQQEAIEHIDEVQNEIDR" charge="2" initial_probability="0.9944" nsp_adjusted_probability="0.9859" fpkm_adjusted_probability="0.9859" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="2194.0139">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="52" probability="0.9836">
+      <protein protein_name="sp|Q9BS26|ERP44_HUMAN" n_indistinguishable_proteins="1" probability="0.9836" percent_coverage="3.4" unique_stripped_peptides="TPADCPVIAIDSFR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="406"/>
+         <annotation protein_description="Endoplasmic reticulum resident protein 44 OS=Homo sapiens GN=ERP44 PE=1 SV=1"/>
+         <peptide peptide_sequence="TPADCPVIAIDSFR" charge="2" initial_probability="0.9935" nsp_adjusted_probability="0.9836" fpkm_adjusted_probability="0.9836" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1560.7604">
+<modification_info modified_peptide="TPADCPVIAIDSFR">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="53" probability="0.9814">
+      <protein protein_name="sp|P40925|MDHC_HUMAN" n_indistinguishable_proteins="1" probability="0.9814" percent_coverage="5.1" unique_stripped_peptides="VIVVGNPANTNCLTASK" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.92">
+         <parameter name="prot_length" value="334"/>
+         <annotation protein_description="Malate dehydrogenase, cytoplasmic OS=Homo sapiens GN=MDH1 PE=1 SV=4"/>
+         <peptide peptide_sequence="VIVVGNPANTNCLTASK" charge="2" initial_probability="0.9926" nsp_adjusted_probability="0.9814" fpkm_adjusted_probability="0.9814" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1756.9141">
+<modification_info modified_peptide="VIVVGNPANTNCLTASK">
+<mod_aminoacid_mass position="12" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="54" probability="0.9789">
+      <protein protein_name="sp|Q9Y4L1|HYOU1_HUMAN" n_indistinguishable_proteins="1" probability="0.9789" percent_coverage="1.5" unique_stripped_peptides="LYQPEYQEVSTEEQR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.78">
+         <parameter name="prot_length" value="999"/>
+         <annotation protein_description="Hypoxia up-regulated protein 1 OS=Homo sapiens GN=HYOU1 PE=1 SV=1"/>
+         <peptide peptide_sequence="LYQPEYQEVSTEEQR" charge="2" initial_probability="0.9916" nsp_adjusted_probability="0.9789" fpkm_adjusted_probability="0.9789" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1897.8693">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="55" probability="0.9755">
+      <protein protein_name="sp|P38646|GRP75_HUMAN" n_indistinguishable_proteins="1" probability="0.9755" percent_coverage="2.1" unique_stripped_peptides="TTPSVVAFTADGER" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.84">
+         <parameter name="prot_length" value="679"/>
+         <annotation protein_description="Stress-70 protein, mitochondrial OS=Homo sapiens GN=HSPA9 PE=1 SV=2"/>
+         <peptide peptide_sequence="TTPSVVAFTADGER" charge="2" initial_probability="0.9902" nsp_adjusted_probability="0.9755" fpkm_adjusted_probability="0.9755" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1449.7100">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="56" probability="0.9686">
+      <protein protein_name="sp|P62888|RL30_HUMAN" n_indistinguishable_proteins="1" probability="0.9686" percent_coverage="10.4" unique_stripped_peptides="LVILANNCPALR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.55" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="115"/>
+         <annotation protein_description="60S ribosomal protein L30 OS=Homo sapiens GN=RPL30 PE=1 SV=2"/>
+         <peptide peptide_sequence="LVILANNCPALR" charge="2" initial_probability="0.9874" nsp_adjusted_probability="0.9686" fpkm_adjusted_probability="0.9686" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1352.7596">
+<modification_info modified_peptide="LVILANNCPALR">
+<mod_aminoacid_mass position="8" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="57" probability="0.9681">
+      <protein protein_name="sp|P30050|RL12_HUMAN" n_indistinguishable_proteins="1" probability="0.9681" percent_coverage="9.7" unique_stripped_peptides="EILGTAQSVGCNVDGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.96">
+         <parameter name="prot_length" value="165"/>
+         <annotation protein_description="60S ribosomal protein L12 OS=Homo sapiens GN=RPL12 PE=1 SV=1"/>
+         <peptide peptide_sequence="EILGTAQSVGCNVDGR" charge="2" initial_probability="0.9872" nsp_adjusted_probability="0.9681" fpkm_adjusted_probability="0.9681" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.99" is_contributing_evidence="Y" calc_neutral_pep_mass="1674.7996">
+<modification_info modified_peptide="EILGTAQSVGCNVDGR">
+<mod_aminoacid_mass position="11" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="58" probability="0.9630">
+      <protein protein_name="sp|P08758|ANXA5_HUMAN" n_indistinguishable_proteins="1" probability="0.9630" percent_coverage="5.0" unique_stripped_peptides="GLGTDEESILTLLTSR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="320"/>
+         <annotation protein_description="Annexin A5 OS=Homo sapiens GN=ANXA5 PE=1 SV=2"/>
+         <peptide peptide_sequence="GLGTDEESILTLLTSR" charge="2" initial_probability="0.9851" nsp_adjusted_probability="0.9630" fpkm_adjusted_probability="0.9630" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1703.8942">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="59" probability="0.9598">
+      <protein protein_name="sp|P09132|SRP19_HUMAN" n_indistinguishable_proteins="1" probability="0.9598" percent_coverage="10.4" unique_stripped_peptides="TGGADQSLQQGEGSK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.96">
+         <parameter name="prot_length" value="144"/>
+         <annotation protein_description="Signal recognition particle 19 kDa protein OS=Homo sapiens GN=SRP19 PE=1 SV=3"/>
+         <peptide peptide_sequence="TGGADQSLQQGEGSK" charge="2" initial_probability="0.9838" nsp_adjusted_probability="0.9598" fpkm_adjusted_probability="0.9598" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1461.6696">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="60" probability="0.9586">
+      <protein protein_name="sp|O60814|H2B1K_HUMAN" n_indistinguishable_proteins="14" probability="0.9586" percent_coverage="11.9" unique_stripped_peptides="AMGIMNSFVNDIFER" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="126"/>
+         <annotation protein_description="Histone H2B type 1-K OS=Homo sapiens GN=HIST1H2BK PE=1 SV=3"/>
+         <indistinguishable_protein protein_name="sp|P06899|H2B1J_HUMAN">
+            <annotation protein_description="Histone H2B type 1-J OS=Homo sapiens GN=HIST1H2BJ PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P23527|H2B1O_HUMAN">
+            <annotation protein_description="Histone H2B type 1-O OS=Homo sapiens GN=HIST1H2BO PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P33778|H2B1B_HUMAN">
+            <annotation protein_description="Histone H2B type 1-B OS=Homo sapiens GN=HIST1H2BB PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P57053|H2BFS_HUMAN">
+            <annotation protein_description="Histone H2B type F-S OS=Homo sapiens GN=H2BFS PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P58876|H2B1D_HUMAN">
+            <annotation protein_description="Histone H2B type 1-D OS=Homo sapiens GN=HIST1H2BD PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|P62807|H2B1C_HUMAN">
+            <annotation protein_description="Histone H2B type 1-C/E/F/G/I OS=Homo sapiens GN=HIST1H2BC PE=1 SV=4"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q16778|H2B2E_HUMAN">
+            <annotation protein_description="Histone H2B type 2-E OS=Homo sapiens GN=HIST2H2BE PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q5QNW6|H2B2F_HUMAN">
+            <annotation protein_description="Histone H2B type 2-F OS=Homo sapiens GN=HIST2H2BF PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q8N257|H2B3B_HUMAN">
+            <annotation protein_description="Histone H2B type 3-B OS=Homo sapiens GN=HIST3H2BB PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q93079|H2B1H_HUMAN">
+            <annotation protein_description="Histone H2B type 1-H OS=Homo sapiens GN=HIST1H2BH PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q99877|H2B1N_HUMAN">
+            <annotation protein_description="Histone H2B type 1-N OS=Homo sapiens GN=HIST1H2BN PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q99879|H2B1M_HUMAN">
+            <annotation protein_description="Histone H2B type 1-M OS=Homo sapiens GN=HIST1H2BM PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <indistinguishable_protein protein_name="sp|Q99880|H2B1L_HUMAN">
+            <annotation protein_description="Histone H2B type 1-L OS=Homo sapiens GN=HIST1H2BL PE=1 SV=3"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="AMGIMNSFVNDIFER" charge="2" initial_probability="0.9833" nsp_adjusted_probability="0.9586" fpkm_adjusted_probability="0.9586" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1774.8018">
+<modification_info modified_peptide="AM[147]GIM[147]NSFVNDIFER">
+<mod_aminoacid_mass position="2" mass="147.035400"/>
+<mod_aminoacid_mass position="5" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="61" probability="0.9574">
+      <protein protein_name="sp|P51858|HDGF_HUMAN" n_indistinguishable_proteins="1" probability="0.9574" percent_coverage="7.9" unique_stripped_peptides="SCVEEPEPEPEAAEGDGDK" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.56" pct_intensity="-nan" raw_intensity="0.00" confidence="0.93">
+         <parameter name="prot_length" value="240"/>
+         <annotation protein_description="Hepatoma-derived growth factor OS=Homo sapiens GN=HDGF PE=1 SV=1"/>
+         <peptide peptide_sequence="SCVEEPEPEPEAAEGDGDK" charge="2" initial_probability="0.9828" nsp_adjusted_probability="0.9574" fpkm_adjusted_probability="0.9574" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.96" is_contributing_evidence="Y" calc_neutral_pep_mass="2043.8215">
+<modification_info modified_peptide="SCVEEPEPEPEAAEGDGDK">
+<mod_aminoacid_mass position="2" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="62" probability="0.9572">
+      <protein protein_name="sp|P09972|ALDOC_HUMAN" n_indistinguishable_proteins="1" probability="0.9572" percent_coverage="6.3" unique_stripped_peptides="GVVPLAGTDGETTTQGLDGLSER" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="364"/>
+         <annotation protein_description="Fructose-bisphosphate aldolase C OS=Homo sapiens GN=ALDOC PE=1 SV=2"/>
+         <peptide peptide_sequence="GVVPLAGTDGETTTQGLDGLSER" charge="2" initial_probability="0.9827" nsp_adjusted_probability="0.9572" fpkm_adjusted_probability="0.9572" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2272.1184">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="63" probability="0.9560">
+      <protein protein_name="sp|O43707|ACTN4_HUMAN" n_indistinguishable_proteins="2" probability="0.9560" percent_coverage="1.5" unique_stripped_peptides="ELPPDQAEYCIAR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.83" pct_intensity="-nan" raw_intensity="0.00" confidence="0.78">
+         <parameter name="prot_length" value="911"/>
+         <annotation protein_description="Alpha-actinin-4 OS=Homo sapiens GN=ACTN4 PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|P12814|ACTN1_HUMAN">
+            <annotation protein_description="Alpha-actinin-1 OS=Homo sapiens GN=ACTN1 PE=1 SV=2"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="ELPPDQAEYCIAR" charge="2" initial_probability="0.9822" nsp_adjusted_probability="0.9560" fpkm_adjusted_probability="0.9560" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.92" is_contributing_evidence="Y" calc_neutral_pep_mass="1560.7241">
+<modification_info modified_peptide="ELPPDQAEYCIAR">
+<mod_aminoacid_mass position="10" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="64" probability="0.9536">
+      <protein protein_name="sp|P23219|PGH1_HUMAN" n_indistinguishable_proteins="1" probability="0.9536" percent_coverage="3.2" unique_stripped_peptides="VPDASQDDGPAVERPSTEL" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.84">
+         <parameter name="prot_length" value="599"/>
+         <annotation protein_description="Prostaglandin G/H synthase 1 OS=Homo sapiens GN=PTGS1 PE=1 SV=2"/>
+         <peptide peptide_sequence="VPDASQDDGPAVERPSTEL" charge="2" initial_probability="0.9812" nsp_adjusted_probability="0.9536" fpkm_adjusted_probability="0.9536" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1981.9226">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="65" probability="0.9524">
+      <protein protein_name="sp|P61086|UBE2K_HUMAN" n_indistinguishable_proteins="1" probability="0.9524" percent_coverage="7.5" unique_stripped_peptides="GEIAGPPDTPYEGGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.94">
+         <parameter name="prot_length" value="200"/>
+         <annotation protein_description="Ubiquitin-conjugating enzyme E2 K OS=Homo sapiens GN=UBE2K PE=1 SV=3"/>
+         <peptide peptide_sequence="GEIAGPPDTPYEGGR" charge="2" initial_probability="0.9807" nsp_adjusted_probability="0.9524" fpkm_adjusted_probability="0.9524" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1514.7000">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="66" probability="0.9512">
+      <protein protein_name="sp|P51148|RAB5C_HUMAN" n_indistinguishable_proteins="1" probability="0.9512" percent_coverage="5.6" unique_stripped_peptides="NEPQNATGAPGR" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.83" pct_intensity="-nan" raw_intensity="0.00" confidence="0.94">
+         <parameter name="prot_length" value="216"/>
+         <annotation protein_description="Ras-related protein Rab-5C OS=Homo sapiens GN=RAB5C PE=1 SV=2"/>
+         <peptide peptide_sequence="NEPQNATGAPGR" charge="2" initial_probability="0.9802" nsp_adjusted_probability="0.9512" fpkm_adjusted_probability="0.9512" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.93" is_contributing_evidence="Y" calc_neutral_pep_mass="1210.5688">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="67" probability="0.9502">
+      <protein protein_name="sp|P04040|CATA_HUMAN" n_indistinguishable_proteins="1" probability="0.9502" percent_coverage="2.5" unique_stripped_peptides="FNTANDDNVTQVR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.86">
+         <parameter name="prot_length" value="527"/>
+         <annotation protein_description="Catalase OS=Homo sapiens GN=CAT PE=1 SV=3"/>
+         <peptide peptide_sequence="FNTANDDNVTQVR" charge="2" initial_probability="0.9798" nsp_adjusted_probability="0.9502" fpkm_adjusted_probability="0.9502" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1492.6904">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="68" probability="0.9502">
+      <protein protein_name="sp|P61604|CH10_HUMAN" n_indistinguishable_proteins="1" probability="0.9502" percent_coverage="13.7" unique_stripped_peptides="VLQATVVAVGSGSK" group_sibling_id="a" total_number_peptides="3" total_number_distinct_peptides="3" pct_spectrum_ids="0.83" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="102"/>
+         <annotation protein_description="10 kDa heat shock protein, mitochondrial OS=Homo sapiens GN=HSPE1 PE=1 SV=2"/>
+         <peptide peptide_sequence="VLQATVVAVGSGSK" charge="2" initial_probability="0.9798" nsp_adjusted_probability="0.9502" fpkm_adjusted_probability="0.9502" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="3" exp_tot_instances="2.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1314.7506">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="69" probability="0.9500">
+      <protein protein_name="sp|P62937|PPIA_HUMAN" n_indistinguishable_proteins="1" probability="0.9500" percent_coverage="10.9" unique_stripped_peptides="VNPTVFFDIAVDGEPLGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.95">
+         <parameter name="prot_length" value="165"/>
+         <annotation protein_description="Peptidyl-prolyl cis-trans isomerase A OS=Homo sapiens GN=PPIA PE=1 SV=2"/>
+         <peptide peptide_sequence="VNPTVFFDIAVDGEPLGR" charge="2" initial_probability="0.9797" nsp_adjusted_probability="0.9500" fpkm_adjusted_probability="0.9500" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1944.9945">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="70" probability="0.9490">
+      <protein protein_name="sp|P40121|CAPG_HUMAN" n_indistinguishable_proteins="1" probability="0.9490" percent_coverage="3.7" unique_stripped_peptides="QAALQVAEGFISR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="348"/>
+         <annotation protein_description="Macrophage-capping protein OS=Homo sapiens GN=CAPG PE=1 SV=2"/>
+         <peptide peptide_sequence="QAALQVAEGFISR" charge="2" initial_probability="0.9793" nsp_adjusted_probability="0.9490" fpkm_adjusted_probability="0.9490" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1388.7411">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="71" probability="0.9483">
+      <protein protein_name="sp|P29966|MARCS_HUMAN" n_indistinguishable_proteins="1" probability="0.9483" percent_coverage="5.1" unique_stripped_peptides="EAGEGGEAEAPAAEGGK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="332"/>
+         <annotation protein_description="Myristoylated alanine-rich C-kinase substrate OS=Homo sapiens GN=MARCKS PE=1 SV=4"/>
+         <peptide peptide_sequence="EAGEGGEAEAPAAEGGK" charge="2" initial_probability="0.9790" nsp_adjusted_probability="0.9483" fpkm_adjusted_probability="0.9483" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1528.6641">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="72" probability="0.9473">
+      <protein protein_name="sp|P10619|PPGB_HUMAN" n_indistinguishable_proteins="1" probability="0.9473" percent_coverage="2.7" unique_stripped_peptides="DLECVTNLQEVAR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.55" pct_intensity="-nan" raw_intensity="0.00" confidence="0.87">
+         <parameter name="prot_length" value="480"/>
+         <annotation protein_description="Lysosomal protective protein OS=Homo sapiens GN=CTSA PE=1 SV=2"/>
+         <peptide peptide_sequence="DLECVTNLQEVAR" charge="2" initial_probability="0.9786" nsp_adjusted_probability="0.9473" fpkm_adjusted_probability="0.9473" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1545.7455">
+<modification_info modified_peptide="DLECVTNLQEVAR">
+<mod_aminoacid_mass position="4" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="73" probability="0.9473">
+      <protein protein_name="sp|Q9NQR4|NIT2_HUMAN" n_indistinguishable_proteins="1" probability="0.9473" percent_coverage="5.4" unique_stripped_peptides="AVDNQVYVATASPAR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.92">
+         <parameter name="prot_length" value="276"/>
+         <annotation protein_description="Omega-amidase NIT2 OS=Homo sapiens GN=NIT2 PE=1 SV=1"/>
+         <peptide peptide_sequence="AVDNQVYVATASPAR" charge="2" initial_probability="0.9786" nsp_adjusted_probability="0.9473" fpkm_adjusted_probability="0.9473" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1560.7894">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="74" probability="0.9450">
+      <protein protein_name="sp|Q9NRV9|HEBP1_HUMAN" n_indistinguishable_proteins="1" probability="0.9450" percent_coverage="7.9" unique_stripped_peptides="IPNQFQSDPPAPSDK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.94">
+         <parameter name="prot_length" value="189"/>
+         <annotation protein_description="Heme-binding protein 1 OS=Homo sapiens GN=HEBP1 PE=1 SV=1"/>
+         <peptide peptide_sequence="IPNQFQSDPPAPSDK" charge="2" initial_probability="0.9776" nsp_adjusted_probability="0.9450" fpkm_adjusted_probability="0.9450" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1639.7841">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="75" probability="0.9438">
+      <protein protein_name="sp|P18669|PGAM1_HUMAN" n_indistinguishable_proteins="2" probability="0.9438" percent_coverage="8.3" unique_stripped_peptides="SYDVPPPPMEPDHPFYSNISK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.93">
+         <parameter name="prot_length" value="254"/>
+         <annotation protein_description="Phosphoglycerate mutase 1 OS=Homo sapiens GN=PGAM1 PE=1 SV=2"/>
+         <indistinguishable_protein protein_name="sp|Q8N0Y7|PGAM4_HUMAN">
+            <annotation protein_description="Probable phosphoglycerate mutase 4 OS=Homo sapiens GN=PGAM4 PE=3 SV=1"/>
+         </indistinguishable_protein>
+         <peptide peptide_sequence="SYDVPPPPMEPDHPFYSNISK" charge="2" initial_probability="0.9771" nsp_adjusted_probability="0.9438" fpkm_adjusted_probability="0.9438" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="2432.0991">
+<modification_info modified_peptide="SYDVPPPPM[147]EPDHPFYSNISK">
+<mod_aminoacid_mass position="9" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="76" probability="0.9431">
+      <protein protein_name="sp|P10599|THIO_HUMAN" n_indistinguishable_proteins="1" probability="0.9431" percent_coverage="12.4" unique_stripped_peptides="TAFQEALDAAGDK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="105"/>
+         <annotation protein_description="Thioredoxin OS=Homo sapiens GN=TXN PE=1 SV=3"/>
+         <peptide peptide_sequence="TAFQEALDAAGDK" charge="2" initial_probability="0.9768" nsp_adjusted_probability="0.9431" fpkm_adjusted_probability="0.9431" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1335.6306">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="77" probability="0.9426">
+      <protein protein_name="sp|P09525|ANXA4_HUMAN" n_indistinguishable_proteins="1" probability="0.9426" percent_coverage="3.4" unique_stripped_peptides="ISQTYQQQYGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="319"/>
+         <annotation protein_description="Annexin A4 OS=Homo sapiens GN=ANXA4 PE=1 SV=4"/>
+         <peptide peptide_sequence="ISQTYQQQYGR" charge="2" initial_probability="0.9766" nsp_adjusted_probability="0.9426" fpkm_adjusted_probability="0.9426" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1370.6578">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="78" probability="0.9419">
+      <protein protein_name="sp|Q15006|EMC2_HUMAN" n_indistinguishable_proteins="1" probability="0.9419" percent_coverage="4.0" unique_stripped_peptides="ILQEDPTNTAAR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="297"/>
+         <annotation protein_description="ER membrane protein complex subunit 2 OS=Homo sapiens GN=EMC2 PE=1 SV=1"/>
+         <peptide peptide_sequence="ILQEDPTNTAAR" charge="2" initial_probability="0.9763" nsp_adjusted_probability="0.9419" fpkm_adjusted_probability="0.9419" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1327.6730">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="79" probability="0.9409">
+      <protein protein_name="sp|Q99497|PARK7_HUMAN" n_indistinguishable_proteins="1" probability="0.9409" percent_coverage="7.4" unique_stripped_peptides="DVVICPDASLEDAK" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.55" pct_intensity="-nan" raw_intensity="0.00" confidence="0.94">
+         <parameter name="prot_length" value="189"/>
+         <annotation protein_description="Protein/nucleic acid deglycase DJ-1 OS=Homo sapiens GN=PARK7 PE=1 SV=2"/>
+         <peptide peptide_sequence="DVVICPDASLEDAK" charge="2" initial_probability="0.9759" nsp_adjusted_probability="0.9409" fpkm_adjusted_probability="0.9409" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1530.7235">
+<modification_info modified_peptide="DVVICPDASLEDAK">
+<mod_aminoacid_mass position="5" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="80" probability="0.9395">
+      <protein protein_name="sp|P06454|PTMA_HUMAN" n_indistinguishable_proteins="1" probability="0.9395" percent_coverage="9.0" unique_stripped_peptides="EVVEEAENGR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.97">
+         <parameter name="prot_length" value="111"/>
+         <annotation protein_description="Prothymosin alpha OS=Homo sapiens GN=PTMA PE=1 SV=2"/>
+         <peptide peptide_sequence="EVVEEAENGR" charge="2" initial_probability="0.9753" nsp_adjusted_probability="0.9395" fpkm_adjusted_probability="0.9395" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.98" is_contributing_evidence="Y" calc_neutral_pep_mass="1130.5203">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="81" probability="0.9365">
+      <protein protein_name="sp|Q9H4G4|GAPR1_HUMAN" n_indistinguishable_proteins="1" probability="0.9365" percent_coverage="8.4" unique_stripped_peptides="EAQQYSEALASTR" group_sibling_id="a" total_number_peptides="2" total_number_distinct_peptides="2" pct_spectrum_ids="0.55" pct_intensity="-nan" raw_intensity="0.00" confidence="0.95">
+         <parameter name="prot_length" value="154"/>
+         <annotation protein_description="Golgi-associated plant pathogenesis-related protein 1 OS=Homo sapiens GN=GLIPR2 PE=1 SV=3"/>
+         <peptide peptide_sequence="EAQQYSEALASTR" charge="2" initial_probability="0.9740" nsp_adjusted_probability="0.9365" fpkm_adjusted_probability="0.9365" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="2" exp_tot_instances="1.94" is_contributing_evidence="Y" calc_neutral_pep_mass="1452.6843">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="82" probability="0.9320">
+      <protein protein_name="sp|Q15428|SF3A2_HUMAN" n_indistinguishable_proteins="1" probability="0.9320" percent_coverage="3.0" unique_stripped_peptides="TGSGGVASSSESNR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.86">
+         <parameter name="prot_length" value="464"/>
+         <annotation protein_description="Splicing factor 3A subunit 2 OS=Homo sapiens GN=SF3A2 PE=1 SV=2"/>
+         <peptide peptide_sequence="TGSGGVASSSESNR" charge="2" initial_probability="0.9721" nsp_adjusted_probability="0.9320" fpkm_adjusted_probability="0.9320" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1294.5750">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="83" probability="0.9260">
+      <protein protein_name="sp|P25788|PSA3_HUMAN" n_indistinguishable_proteins="1" probability="0.9260" percent_coverage="4.7" unique_stripped_peptides="AVENSSTAIGIR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.28" pct_intensity="-nan" raw_intensity="0.00" confidence="0.92">
+         <parameter name="prot_length" value="255"/>
+         <annotation protein_description="Proteasome subunit alpha type-3 OS=Homo sapiens GN=PSMA3 PE=1 SV=2"/>
+         <peptide peptide_sequence="AVENSSTAIGIR" charge="2" initial_probability="0.9695" nsp_adjusted_probability="0.9260" fpkm_adjusted_probability="0.9260" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.97" is_contributing_evidence="Y" calc_neutral_pep_mass="1216.6411">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="84" probability="0.9117">
+      <protein protein_name="sp|P27348|1433T_HUMAN" n_indistinguishable_proteins="1" probability="0.9117" percent_coverage="5.7" unique_stripped_peptides="AVTEQGAELSNEER" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.27" pct_intensity="-nan" raw_intensity="0.00" confidence="0.92">
+         <parameter name="prot_length" value="245"/>
+         <annotation protein_description="14-3-3 protein theta OS=Homo sapiens GN=YWHAQ PE=1 SV=1"/>
+         <peptide peptide_sequence="AVTEQGAELSNEER" charge="2" initial_probability="0.9633" nsp_adjusted_probability="0.9117" fpkm_adjusted_probability="0.9117" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.96" is_contributing_evidence="Y" calc_neutral_pep_mass="1531.7114">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="85" probability="0.8814">
+      <protein protein_name="sp|Q01130|SRSF2_HUMAN" n_indistinguishable_proteins="1" probability="0.8814" percent_coverage="7.2" unique_stripped_peptides="SYGRPPPDVEGMTSLK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.27" pct_intensity="-nan" raw_intensity="0.00" confidence="0.91">
+         <parameter name="prot_length" value="221"/>
+         <annotation protein_description="Serine/arginine-rich splicing factor 2 OS=Homo sapiens GN=SRSF2 PE=1 SV=4"/>
+         <peptide peptide_sequence="SYGRPPPDVEGMTSLK" charge="2" initial_probability="0.9497" nsp_adjusted_probability="0.8814" fpkm_adjusted_probability="0.8814" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1790.8508">
+<modification_info modified_peptide="S[129]YGRPPPDVEGM[147]TSLK">
+<mod_aminoacid_mass position="1" mass="129.042600"/>
+<mod_aminoacid_mass position="12" mass="147.035400"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="86" probability="0.8759">
+      <protein protein_name="sp|P61981|1433G_HUMAN" n_indistinguishable_proteins="1" probability="0.8759" percent_coverage="5.7" unique_stripped_peptides="NVTELNEPLSNEER" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.27" pct_intensity="-nan" raw_intensity="0.00" confidence="0.90">
+         <parameter name="prot_length" value="247"/>
+         <annotation protein_description="14-3-3 protein gamma OS=Homo sapiens GN=YWHAG PE=1 SV=2"/>
+         <peptide peptide_sequence="NVTELNEPLSNEER" charge="2" initial_probability="0.9473" nsp_adjusted_probability="0.8759" fpkm_adjusted_probability="0.8759" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.95" is_contributing_evidence="Y" calc_neutral_pep_mass="1642.7797">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="87" probability="0.8041">
+      <protein protein_name="sp|P16070|CD44_HUMAN" n_indistinguishable_proteins="1" probability="0.8041" percent_coverage="1.8" unique_stripped_peptides="LVINSGNGAVEDR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.26" pct_intensity="-nan" raw_intensity="0.00" confidence="0.67">
+         <parameter name="prot_length" value="742"/>
+         <annotation protein_description="CD44 antigen OS=Homo sapiens GN=CD44 PE=1 SV=3"/>
+         <peptide peptide_sequence="LVINSGNGAVEDR" charge="2" initial_probability="0.9126" nsp_adjusted_probability="0.8041" fpkm_adjusted_probability="0.8041" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.91" is_contributing_evidence="Y" calc_neutral_pep_mass="1342.6840">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="88" probability="0.7790">
+      <protein protein_name="DECOY_sp|Q9NS87|KIF15_HUMAN" n_indistinguishable_proteins="1" probability="0.7790" unique_stripped_peptides="EMGSIESFAKELK" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.26" pct_intensity="-nan" raw_intensity="0.00" confidence="0.76">
+         <parameter name="prot_length" value="0"/>
+         <annotation protein_description="DECOY_sp Q9NS87 KIF15_HUMAN"/>
+         <peptide peptide_sequence="EMGSIESFAKELK" charge="2" initial_probability="0.8997" nsp_adjusted_probability="0.7790" fpkm_adjusted_probability="0.7790" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.90" is_contributing_evidence="Y" calc_neutral_pep_mass="1467.7279">
+         </peptide>
+      </protein>
+</protein_group>
+<protein_group group_number="89" probability="0.4823">
+      <protein protein_name="sp|P00558|PGK1_HUMAN" n_indistinguishable_proteins="1" probability="0.4823" percent_coverage="4.1" unique_stripped_peptides="ACANPAAGSVILLENLR" group_sibling_id="a" total_number_peptides="1" total_number_distinct_peptides="1" pct_spectrum_ids="0.20" pct_intensity="-nan" raw_intensity="0.00" confidence="0.26">
+         <parameter name="prot_length" value="417"/>
+         <annotation protein_description="Phosphoglycerate kinase 1 OS=Homo sapiens GN=PGK1 PE=1 SV=3"/>
+         <peptide peptide_sequence="ACANPAAGSVILLENLR" charge="2" initial_probability="0.7033" nsp_adjusted_probability="0.4823" fpkm_adjusted_probability="0.4823" weight="1.00" group_weight="1.00" is_nondegenerate_evidence="Y" n_enzymatic_termini="2" n_sibling_peptides="0.00" n_sibling_peptides_bin="0" n_instances="1" exp_tot_instances="0.70" is_contributing_evidence="Y" calc_neutral_pep_mass="1767.9302">
+<modification_info modified_peptide="ACANPAAGSVILLENLR">
+<mod_aminoacid_mass position="2" mass="160.030700"/>
+</modification_info>
+         </peptide>
+      </protein>
+</protein_group>
+</protein_summary>

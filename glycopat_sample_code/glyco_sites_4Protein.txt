@@ -1,0 +1,31 @@
+Manually identified glycosylation sites from 1% FDR filtered Peptide Spectrum Match results
+
+N-glycosite indicated by trailing brackets {}
+
+Fetuin A, Bovine ( 2 sites )
+
+	LLAPLN{}DSR
+	NAESN{}GSY
+
+RNASE 1: ( 1 site )
+
+	SRN{}LTKDR
+
+FINC_HUMAN: ( 7 sites )
+
+	ITYNVN{}LTKDR
+	HEEGMLN{}CTC
+	NLQFVN{}ETD
+	NNHN{}YTD
+	TTLEN{}VSP
+	TFDN{}LSP
+	GLEYN{}VSV
+
+A1AG1_HUMAN ( 4 sites ):
+
+	TFFYFTPN{}K
+	NEEYN{}KSV
+	QCIYN{}TTY
+	QREN{}GTI
+
+
